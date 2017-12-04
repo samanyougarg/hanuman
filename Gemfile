@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'jekyll'
+gem "jekyll", "~> 3.6.2", 
 gem 'jekyll-paginate'
 gem 'jekyll-compose', group: [:jekyll_plugins]
 gem "github-pages", "~> 168"
