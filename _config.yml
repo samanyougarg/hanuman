@@ -8,7 +8,7 @@
 # Site settings
 title: Hanuman
 email: your-email@domain.com
-description: Jai Shri Ram!
+description: A responsive, lightning-fast Jekyll theme built using AMP (Accelerated Mobile Pages) to speed up your blogs and websites.
 cover: assets/images/radhakrishna.jpg
 logo: assets/images/logo.png
 favicon: assets/images/favicon.png
@@ -42,3 +42,24 @@ kramdown:
 
 gems:
   - jekyll-paginate
+
+
+safe: False
+lsi: False
+username: samanyougarg
+repo: hanuman
+branch: master
+relative_source: ../hanuman/
+destination: ../hanuman-pages/
+production_url:  https://shriradhakrishna.com/
+source_url:  https://github.com/samanyougarg/hanuman
+
+exclude:
+  - README.md
+  - Rakefile
+  - Gemfile
+  - Gemfile.lock
+  - changelog.md
+  - "*.Rmd"
+  - vendor
+  - .travis.yml
