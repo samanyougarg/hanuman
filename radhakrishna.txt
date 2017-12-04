@@ -1,0 +1,15 @@
+A responsive, lightning-fast Jekyll theme built using AMP (Accelerated Mobile Pages) to speed up your blogs and websites.
+
+Hanuman is a minimal yet powerful Jekyll theme for your blogs and websites.
+
+It is built using the open source AMP Start framework and can be customized as per your requirements.
+
+Features -
+- Minimal
+- Responsive
+- Syntax Highlighting for code
+- Cover Images for homepage and blog posts
+- Social Sharing
+- Simple Navigation Menu
+- Pagination
+- Google Analytics
