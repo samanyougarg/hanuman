@@ -5,8 +5,8 @@
     <description>Hanuman is a minimal yet powerful Jekyll theme for your blogs and websites.</description>
     <link>https://merutan.com/hanuman//</link>
     <atom:link href="https://merutan.com/hanuman//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 05 Dec 2017 06:34:17 +0000</pubDate>
-    <lastBuildDate>Tue, 05 Dec 2017 06:34:17 +0000</lastBuildDate>
+    <pubDate>Tue, 05 Dec 2017 06:46:48 +0000</pubDate>
+    <lastBuildDate>Tue, 05 Dec 2017 06:46:48 +0000</lastBuildDate>
     <generator>Jekyll v3.6.2</generator>
     
       <item>
@@ -43,7 +43,7 @@
 
 &lt;h3 id=&quot;image&quot;&gt;Image&lt;/h3&gt;
 
-&lt;amp-img src=&quot;/assets/images/shiva.jpg&quot; width=&quot;656&quot; height=&quot;400&quot; layout=&quot;responsive&quot; alt=&quot;&quot; class=&quot;mb3&quot;&gt;&lt;/amp-img&gt;
+&lt;amp-img src=&quot;/hanuman/assets/images/shiva.jpg&quot; width=&quot;656&quot; height=&quot;400&quot; layout=&quot;responsive&quot; alt=&quot;&quot; class=&quot;mb3&quot;&gt;&lt;/amp-img&gt;
 
 &lt;p&gt;Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.&lt;/p&gt;
 
@@ -371,7 +371,7 @@ import Foundation
         <title>Media</title>
         <description>&lt;h3 id=&quot;image&quot;&gt;Image&lt;/h3&gt;
 
-&lt;amp-img src=&quot;/assets/images/shiva.jpg&quot; width=&quot;656&quot; height=&quot;400&quot; layout=&quot;responsive&quot; alt=&quot;&quot; class=&quot;mb3&quot;&gt;&lt;/amp-img&gt;
+&lt;amp-img src=&quot;/hanuman/assets/images/shiva.jpg&quot; width=&quot;656&quot; height=&quot;400&quot; layout=&quot;responsive&quot; alt=&quot;&quot; class=&quot;mb3&quot;&gt;&lt;/amp-img&gt;
 
 &lt;p&gt;Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.&lt;/p&gt;
 
