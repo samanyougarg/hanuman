@@ -41,7 +41,7 @@ author: Author
 
 <h3 id="image">Image</h3>
 
-<amp-img src="/assets/images/shiva.jpg" width="656" height="400" layout="responsive" alt="" class="mb3"></amp-img>
+<amp-img src="{{ site.baseurl }}assets/images/shiva.jpg" width="656" height="400" layout="responsive" alt="" class="mb3"></amp-img>
 
 <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
 
