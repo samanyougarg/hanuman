@@ -3,10 +3,10 @@
   <channel>
     <title>Hanuman</title>
     <description>A responsive, lightning-fast Jekyll theme built using AMP (Accelerated Mobile Pages) to speed up your blogs and websites.</description>
-    <link>http://yourdomain.com//</link>
-    <atom:link href="http://yourdomain.com//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 05 Dec 2017 06:15:18 +0000</pubDate>
-    <lastBuildDate>Tue, 05 Dec 2017 06:15:18 +0000</lastBuildDate>
+    <link>https://merutan.com/hanuman//</link>
+    <atom:link href="https://merutan.com/hanuman//feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Tue, 05 Dec 2017 06:29:51 +0000</pubDate>
+    <lastBuildDate>Tue, 05 Dec 2017 06:29:51 +0000</lastBuildDate>
     <generator>Jekyll v3.6.2</generator>
     
       <item>
@@ -265,8 +265,8 @@ The &lt;u&gt;u element&lt;/u&gt; example&lt;/p&gt;
 &lt;/amp-youtube&gt;
 </description>
         <pubDate>Thu, 30 Nov 2017 04:00:00 +0000</pubDate>
-        <link>http://yourdomain.com//radha-krishna</link>
-        <guid isPermaLink="true">http://yourdomain.com//radha-krishna</guid>
+        <link>https://merutan.com/hanuman//radha-krishna</link>
+        <guid isPermaLink="true">https://merutan.com/hanuman//radha-krishna</guid>
         
         <category>guide</category>
         
@@ -283,8 +283,8 @@ cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;
 </description>
         <pubDate>Wed, 29 Nov 2017 04:00:00 +0000</pubDate>
-        <link>http://yourdomain.com//sample</link>
-        <guid isPermaLink="true">http://yourdomain.com//sample</guid>
+        <link>https://merutan.com/hanuman//sample</link>
+        <guid isPermaLink="true">https://merutan.com/hanuman//sample</guid>
         
         <category>test</category>
         
@@ -359,8 +359,8 @@ import Foundation
 &lt;/div&gt;
 </description>
         <pubDate>Tue, 28 Nov 2017 04:00:00 +0000</pubDate>
-        <link>http://yourdomain.com//code</link>
-        <guid isPermaLink="true">http://yourdomain.com//code</guid>
+        <link>https://merutan.com/hanuman//code</link>
+        <guid isPermaLink="true">https://merutan.com/hanuman//code</guid>
         
         <category>code</category>
         
@@ -397,8 +397,8 @@ import Foundation
 &lt;/amp-audio&gt;
 </description>
         <pubDate>Mon, 27 Nov 2017 04:00:00 +0000</pubDate>
-        <link>http://yourdomain.com//media</link>
-        <guid isPermaLink="true">http://yourdomain.com//media</guid>
+        <link>https://merutan.com/hanuman//media</link>
+        <guid isPermaLink="true">https://merutan.com/hanuman//media</guid>
         
         <category>media</category>
         
