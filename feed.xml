@@ -2,11 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Hanuman</title>
-    <description>A responsive, lightning-fast Jekyll theme built using AMP (Accelerated Mobile Pages) to speed up your blogs and websites.</description>
+    <description>Hanuman is a minimal yet powerful Jekyll theme for your blogs and websites.</description>
     <link>https://merutan.com/hanuman//</link>
     <atom:link href="https://merutan.com/hanuman//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 05 Dec 2017 06:29:51 +0000</pubDate>
-    <lastBuildDate>Tue, 05 Dec 2017 06:29:51 +0000</lastBuildDate>
+    <pubDate>Tue, 05 Dec 2017 06:34:17 +0000</pubDate>
+    <lastBuildDate>Tue, 05 Dec 2017 06:34:17 +0000</lastBuildDate>
     <generator>Jekyll v3.6.2</generator>
     
       <item>
