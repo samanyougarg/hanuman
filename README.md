@@ -29,23 +29,6 @@ There are different ways to install the theme -
 3. Add your posts to the _posts directory.
 4. Deploy to Github Pages or your own server.
 
-**Deploying to Github Pages**
-
-There are 2 methods you can use to deploy the site to Github Pages - 
-
-1. Run `bundle exec jekyll serve` inside your cloned repository. Push the contents of the resulting _site to your Github Pages repository.
-
-2. Using Travis CI
-- Set up travis-ci for your fork. 
-- Generate your secure token with the travis gem:
-  Run `gem install travis` on your terminal.
-- Grab the GH_TOKEN from https://github.com/settings/tokens
-- Then run `travis encrypt 'GIT_NAME="YOUR_USERNAME" GIT_EMAIL="YOUR_EMAIL" GH_TOKEN=YOUR_TOKEN'`
-- Add the token to your .travis.yml file.
-
-  Now you just need to push the files. Travis will generate the HTML files and automatically push them to your gh-pages branch. 
-This is the setup I am using.
-
 ### 2. Ruby Gem Method
 Add this line to your Jekyll site's `Gemfile`:
 
@@ -66,6 +49,23 @@ And then execute:
 Or install it yourself as:
 
     $ gem install hanuman
+
+## Deploying to Github Pages
+
+There are 2 methods you can use to deploy the site to Github Pages - 
+
+1. Run `bundle exec jekyll serve` inside your cloned repository. Push the contents of the resulting _site to your Github Pages repository.
+
+2. Using Travis CI
+- Set up travis-ci for your fork. 
+- Generate your secure token with the travis gem:
+  Run `gem install travis` on your terminal.
+- Grab the GH_TOKEN from https://github.com/settings/tokens
+- Then run `travis encrypt 'GIT_NAME="YOUR_USERNAME" GIT_EMAIL="YOUR_EMAIL" GH_TOKEN=YOUR_TOKEN'`
+- Add the token to your .travis.yml file.
+
+  Now you just need to push the files. Travis will generate the HTML files and automatically push them to your gh-pages branch. 
+This is the setup I am using.
 
 ## Usage
 
