@@ -12,8 +12,8 @@ description: A responsive, lightning-fast Jekyll theme built using AMP (Accelera
 cover: assets/images/radhakrishna.jpg
 logo: assets/images/logo.png
 favicon: assets/images/favicon.png
-baseurl: "/" # the subpath of your site, e.g. /blog
-url: "http://yourdomain.com" # the base hostname & protocol for your site
+baseurl: "/hanuman/" # the subpath of your site, e.g. /blog
+url: "https://merutan.com" # the base hostname & protocol for your site
 paginate:	5 # The number of posts to show per page on your homepage
 
 name: 'Hanuman'
