@@ -50,6 +50,26 @@ Or install it yourself as:
 
     $ gem install hanuman
 
+### 3. Jekyll Remote Theme
+1. Create or update your Gemfile with the following - 
+
+```ruby
+source "https://rubygems.org"
+gem "github-pages", group: :jekyll_plugins
+gem "jekyll-remote-theme"
+```
+
+2. Update the bundled gems using `bundle` command.
+
+3. Add `remote_theme: "hanuman"` to your `_config.yml`.
+
+4. Add `jekyll-remote-theme` to the plugins array of your `_config.yml` - 
+
+```yaml
+plugins:
+  - jekyll-remote-theme
+```    
+  
 ## Deploying to Github Pages
 
 There are 2 methods you can use to deploy the site to Github Pages - 
