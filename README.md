@@ -95,7 +95,21 @@ This is the setup I am using.
 
 ## Usage
 
-TODO: Write usage instructions here. Describe your available layouts, includes, sass and/or assets.
+### _config.yml
+Update _config.yml with your respective settings like updating your site's name, description etc...
+
+### Styling
+AMP has a limitation that you can only use inline css.
+All the CSS for this theme is in the styles.scss file in the includes directory.
+
+#### Changing the Default Color
+In the styles.scss file in the includes directory, you can change the hex value to the color you would like your site to use.
+
+### Author Information
+Author information is present in the author.yml file in the _data folder. You can update the fields of that file as per your requirements.
+
+### Sidenav
+Sidenav can be updated from the navigation.yml file in the _data folder.
 
 ## Contributing
 
