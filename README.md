@@ -59,7 +59,7 @@ gem "github-pages", group: :jekyll_plugins
 gem "jekyll-remote-theme"
 ```
 
-2.Update the bundled gems using `bundle` command.
+2. Update the bundled gems using `bundle` command.
 
 3. Add `remote_theme: "hanuman"` to your `_config.yml`.
 
