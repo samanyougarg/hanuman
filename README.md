@@ -111,6 +111,39 @@ Author information is present in the author.yml file in the _data folder. You ca
 ### Sidenav
 Sidenav can be updated from the navigation.yml file in the _data folder.
 
+## Writing Posts
+You can write posts just as you would in Jekyll, the only difference being that AMP has some strict guidelines on including external content.
+
+You cannot use Markdown format or normal HTML tags. AMP provides its own custom tags for images, videos etc...
+
+### Examples - 
+
+**Images**
+`<amp-img src="welcome.jpg" alt="Welcome" height="400" width="800"></amp-img>`
+
+**Videos**
+`<amp-youtube data-videoid="mGENRKrdoGY" layout="responsive" width="480" height="270"></amp-youtube>`
+
+[See Full AMP Documentation.](https://www.ampproject.org/docs/)
+
+### Using AMP Components
+Some AMP components require you to specify external scripts before using them.
+You can specify these scripts in the head.html file in the includes directory after the already imported scripts and then use these components in any post.
+
+## Validating your page with AMP
+AMP provides built-in validator to validate your pages so that they can rendered quickly. 
+
+You can access this validator by opening the Developer Console in your browser and adding #development=1 to any url of your site.
+
+Example - 
+http://localhost:4000/#development=1
+
+If you have errors on your page, AMP will list those for you in the console. If you do not have any errors, you'll get a message "AMP Validation Successful" on your console.
+
+## Enabling Google Analytics
+1. Set up your Analytics Tracking ID in _config.yml.
+2. Remove {% comment %} and {% endcomment %} tags in the default.html file in layouts directory.
+
 ## Contributing
 
 Bug reports and pull requests are welcome on GitHub at https://github.com/samanyougarg/hanuman. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
