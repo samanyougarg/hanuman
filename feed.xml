@@ -3,10 +3,10 @@
   <channel>
     <title>Hanuman</title>
     <description>Hanuman is a minimal yet powerful Jekyll theme for your blogs and websites.</description>
-    <link>https://merutan.com/hanuman//</link>
-    <atom:link href="https://merutan.com/hanuman//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 06 Dec 2017 11:11:22 +0000</pubDate>
-    <lastBuildDate>Wed, 06 Dec 2017 11:11:22 +0000</lastBuildDate>
+    <link>https://samanyougarg.com/hanuman//</link>
+    <atom:link href="https://samanyougarg.com/hanuman//feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Wed, 06 Dec 2017 11:23:02 +0000</pubDate>
+    <lastBuildDate>Wed, 06 Dec 2017 11:23:02 +0000</lastBuildDate>
     <generator>Jekyll v3.6.2</generator>
     
       <item>
@@ -265,8 +265,8 @@ The &lt;u&gt;u element&lt;/u&gt; example&lt;/p&gt;
 &lt;/amp-youtube&gt;
 </description>
         <pubDate>Thu, 30 Nov 2017 04:00:00 +0000</pubDate>
-        <link>https://merutan.com/hanuman//style-guide</link>
-        <guid isPermaLink="true">https://merutan.com/hanuman//style-guide</guid>
+        <link>https://samanyougarg.com/hanuman//style-guide</link>
+        <guid isPermaLink="true">https://samanyougarg.com/hanuman//style-guide</guid>
         
         <category>guide</category>
         
@@ -283,8 +283,8 @@ cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;
 </description>
         <pubDate>Wed, 29 Nov 2017 04:00:00 +0000</pubDate>
-        <link>https://merutan.com/hanuman//sample</link>
-        <guid isPermaLink="true">https://merutan.com/hanuman//sample</guid>
+        <link>https://samanyougarg.com/hanuman//sample</link>
+        <guid isPermaLink="true">https://samanyougarg.com/hanuman//sample</guid>
         
         <category>test</category>
         
@@ -359,8 +359,8 @@ import Foundation
 &lt;/div&gt;
 </description>
         <pubDate>Tue, 28 Nov 2017 04:00:00 +0000</pubDate>
-        <link>https://merutan.com/hanuman//code</link>
-        <guid isPermaLink="true">https://merutan.com/hanuman//code</guid>
+        <link>https://samanyougarg.com/hanuman//code</link>
+        <guid isPermaLink="true">https://samanyougarg.com/hanuman//code</guid>
         
         <category>code</category>
         
@@ -397,8 +397,8 @@ import Foundation
 &lt;/amp-audio&gt;
 </description>
         <pubDate>Mon, 27 Nov 2017 04:00:00 +0000</pubDate>
-        <link>https://merutan.com/hanuman//media</link>
-        <guid isPermaLink="true">https://merutan.com/hanuman//media</guid>
+        <link>https://samanyougarg.com/hanuman//media</link>
+        <guid isPermaLink="true">https://samanyougarg.com/hanuman//media</guid>
         
         <category>media</category>
         
