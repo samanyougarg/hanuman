@@ -4,6 +4,10 @@ Hanuman is a minimal yet powerful Jekyll theme for your blogs and websites.
 
 It is built using the open source AMP Start framework and can be customized as per your requirements.
 
+
+![Hanuman](/Screenshots/hanuman.jpg "Hanuman Preview")
+
+
 ## Features
 
 - Minimal
