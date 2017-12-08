@@ -6,7 +6,8 @@ Hanuman is a minimal yet powerful Jekyll theme for your blogs and websites.
 
 It is built using the open source AMP Start framework and can be customized as per your requirements.
 
-
+## Live Demo
+## [Hanuman](https://samanyougarg.com/hanuman)
 ![Hanuman](/Screenshots/hanuman.jpg "Hanuman Preview")
 
 
@@ -155,6 +156,8 @@ To submit a pull request -
 3. Create a new branch from the master branch.
 4. Open a pull request on Github describing what was fixed or added.
 
+## Thanks
+Hanuman is based on [amplify](https://github.com/ageitgey/amplify) jekyll theme. Thank You.
 
 ## License
 
