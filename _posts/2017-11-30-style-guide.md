@@ -293,17 +293,17 @@ Definition
 
 <p>These area a couple of examples showing the resulting highlighted code:</p>
 
-{% highlight css %}
+```css
 /* css code sample */
 #container {
     float: left;
     margin: 0 -240px 0 0;
     width: 100%;
 }
-{% endhighlight %}
+```
 
 
-{% highlight javascript %}
+```javascript
 // javascript code sample
 $.ajax({
   type: 'POST',
@@ -317,15 +317,11 @@ $.ajax({
     alert("ajax error response type "+type);
   }
 });
-{% endhighlight %}
+```
 
-<p>Now you can also use <a href="https://highlightjs.org/">highlight.js</a>.
-For more on how to use it and on the available styles check their
-<a href="https://highlightjs.org/static/demo/">demo</a> and
-<a href="http://highlightjs.readthedocs.org/en/latest/">documentation</a> pages.</p>
 
-<div class="system">
-<pre><code class="swift">// Swift code sample
+```swift
+// Swift code sample
 import Foundation
 
 @objc class Person: Entity {
@@ -341,8 +337,7 @@ import Foundation
     return "\(name) is \(age + offset) years old"
   }
 }
-</code></pre>
-</div>
+```
 
 
 <hr />
