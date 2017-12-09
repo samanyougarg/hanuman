@@ -6,7 +6,8 @@ Hanuman is a minimal yet powerful Jekyll theme for your blogs and websites.
 
 It is built using the open source AMP Start framework and can be customized as per your requirements.
 
-
+## Live Demo
+## [Hanuman](https://samanyougarg.com/hanuman)
 ![Hanuman](/Screenshots/hanuman.jpg "Hanuman Preview")
 
 
@@ -95,7 +96,54 @@ This is the setup I am using.
 
 ## Usage
 
-TODO: Write usage instructions here. Describe your available layouts, includes, sass and/or assets.
+### _config.yml
+Update _config.yml with your respective settings like updating your site's name, description etc...
+
+### Styling
+AMP has a limitation that you can only use inline css.
+All the CSS for this theme is in the styles.scss file in the includes directory.
+
+#### Changing the Default Color
+In the styles.scss file in the includes directory, you can change the hex value to the color you would like your site to use.
+
+### Author Information
+Author information is present in the author.yml file in the _data folder. You can update the fields of that file as per your requirements.
+
+### Sidenav
+Sidenav can be updated from the navigation.yml file in the _data folder.
+
+## Writing Posts
+You can write posts just as you would in Jekyll, the only difference being that AMP has some strict guidelines on including external content.
+
+You cannot use Markdown format or normal HTML tags. AMP provides its own custom tags for images, videos etc...
+
+### Examples - 
+
+**Images**
+`<amp-img src="welcome.jpg" alt="Welcome" height="400" width="800"></amp-img>`
+
+**Videos**
+`<amp-youtube data-videoid="mGENRKrdoGY" layout="responsive" width="480" height="270"></amp-youtube>`
+
+[See Full AMP Documentation.](https://www.ampproject.org/docs/)
+
+### Using AMP Components
+Some AMP components require you to specify external scripts before using them.
+You can specify these scripts in the head.html file in the includes directory after the already imported scripts and then use these components in any post.
+
+## Validating your page with AMP
+AMP provides built-in validator to validate your pages so that they can rendered quickly. 
+
+You can access this validator by opening the Developer Console in your browser and adding #development=1 to any url of your site.
+
+Example - 
+http://localhost:4000/#development=1
+
+If you have errors on your page, AMP will list those for you in the console. If you do not have any errors, you'll get a message "AMP Validation Successful" on your console.
+
+## Enabling Google Analytics
+1. Set up your Analytics Tracking ID in _config.yml.
+2. Remove {% comment %} and {% endcomment %} tags in the default.html file in layouts directory.
 
 ## Contributing
 
@@ -108,6 +156,8 @@ To submit a pull request -
 3. Create a new branch from the master branch.
 4. Open a pull request on Github describing what was fixed or added.
 
+## Thanks
+Hanuman is based on [amplify](https://github.com/ageitgey/amplify) jekyll theme. Thank You.
 
 ## License
 
