@@ -10,7 +10,7 @@
 
   <title>Code</title>
 
-  <meta name="description" content="Code can be presented inline, like &lt;?php bloginfo('stylesheet_url'); ?&gt;, or within a &lt;pre&gt; block. Because we have more specific typographic needs...">
+  <meta name="description" content="Code can be presented inline, like &lt;?php bloginfo('stylesheet_url'); ?&gt;, or within a ``` ``` block.">
 
   <meta property="og:site_name" content="Hanuman" />
   <meta property="og:type" content="website" />
@@ -46,7 +46,7 @@
   "headline": "Code",
   "datePublished": "2017-11-28T04:00:00+00:00",
   "dateModified": "2017-11-28T04:00:00+00:00",
-  "description": "Code can be presented inline, like &lt;?php bloginfo('stylesheet_url'); ?&gt;, or within a &lt;pre&gt; block. Because we have more specific typographic needs...",
+  "description": "Code can be presented inline, like &lt;?php bloginfo('stylesheet_url'); ?&gt;, or within a ``` ``` block.",
   "author": {
     "@type": "Person",
     "name": ""
@@ -74,147 +74,268 @@
   <style amp-custom>
   
   "UTF-8";
-/**
- * Syntax highlighting styles
- */
-.highlight {
-  background: #fff; }
-  .highlighter-rouge .highlight {
-    background: #eef; }
-  .highlight .c {
-    color: #998;
-    font-style: italic; }
-  .highlight .err {
-    color: #a61717;
-    background-color: #e3d2d2; }
-  .highlight .k {
-    font-weight: bold; }
-  .highlight .o {
-    font-weight: bold; }
-  .highlight .cm {
-    color: #998;
-    font-style: italic; }
-  .highlight .cp {
-    color: #999;
-    font-weight: bold; }
-  .highlight .c1 {
-    color: #998;
-    font-style: italic; }
-  .highlight .cs {
-    color: #999;
-    font-weight: bold;
-    font-style: italic; }
-  .highlight .gd {
-    color: #000;
-    background-color: #fdd; }
-  .highlight .gd .x {
-    color: #000;
-    background-color: #faa; }
-  .highlight .ge {
-    font-style: italic; }
-  .highlight .gr {
-    color: #a00; }
-  .highlight .gh {
-    color: #999; }
-  .highlight .gi {
-    color: #000;
-    background-color: #dfd; }
-  .highlight .gi .x {
-    color: #000;
-    background-color: #afa; }
-  .highlight .go {
-    color: #888; }
-  .highlight .gp {
-    color: #555; }
-  .highlight .gs {
-    font-weight: bold; }
-  .highlight .gu {
-    color: #aaa; }
-  .highlight .gt {
-    color: #a00; }
-  .highlight .kc {
-    font-weight: bold; }
-  .highlight .kd {
-    font-weight: bold; }
-  .highlight .kp {
-    font-weight: bold; }
-  .highlight .kr {
-    font-weight: bold; }
-  .highlight .kt {
-    color: #458;
-    font-weight: bold; }
-  .highlight .m {
-    color: #099; }
-  .highlight .s {
-    color: #d14; }
-  .highlight .na {
-    color: #008080; }
-  .highlight .nb {
-    color: #0086B3; }
-  .highlight .nc {
-    color: #458;
-    font-weight: bold; }
-  .highlight .no {
-    color: #008080; }
-  .highlight .ni {
-    color: #800080; }
-  .highlight .ne {
-    color: #900;
-    font-weight: bold; }
-  .highlight .nf {
-    color: #900;
-    font-weight: bold; }
-  .highlight .nn {
-    color: #555; }
-  .highlight .nt {
-    color: #000080; }
-  .highlight .nv {
-    color: #008080; }
-  .highlight .ow {
-    font-weight: bold; }
-  .highlight .w {
-    color: #bbb; }
-  .highlight .mf {
-    color: #099; }
-  .highlight .mh {
-    color: #099; }
-  .highlight .mi {
-    color: #099; }
-  .highlight .mo {
-    color: #099; }
-  .highlight .sb {
-    color: #d14; }
-  .highlight .sc {
-    color: #d14; }
-  .highlight .sd {
-    color: #d14; }
-  .highlight .s2 {
-    color: #d14; }
-  .highlight .se {
-    color: #d14; }
-  .highlight .sh {
-    color: #d14; }
-  .highlight .si {
-    color: #d14; }
-  .highlight .sx {
-    color: #d14; }
-  .highlight .sr {
-    color: #009926; }
-  .highlight .s1 {
-    color: #d14; }
-  .highlight .ss {
-    color: #990073; }
-  .highlight .bp {
-    color: #999; }
-  .highlight .vc {
-    color: #008080; }
-  .highlight .vg {
-    color: #008080; }
-  .highlight .vi {
-    color: #008080; }
-  .highlight .il {
-    color: #099; }
+.highlight .hll {
+  background-color: #373b41; }
 
+.highlight {
+  background: #1d1f21;
+  color: #c5c8c6; }
+
+.highlight .c {
+  color: #969896; }
+
+/* Comment */
+.highlight .err {
+  color: #cc6666; }
+
+/* Error */
+.highlight .k {
+  color: #b294bb; }
+
+/* Keyword */
+.highlight .l {
+  color: #de935f; }
+
+/* Literal */
+.highlight .n {
+  color: #c5c8c6; }
+
+/* Name */
+.highlight .o {
+  color: #8abeb7; }
+
+/* Operator */
+.highlight .p {
+  color: #c5c8c6; }
+
+/* Punctuation */
+.highlight .cm {
+  color: #969896; }
+
+/* Comment.Multiline */
+.highlight .cp {
+  color: #969896; }
+
+/* Comment.Preproc */
+.highlight .c1 {
+  color: #969896; }
+
+/* Comment.Single */
+.highlight .cs {
+  color: #969896; }
+
+/* Comment.Special */
+.highlight .gd {
+  color: #cc6666; }
+
+/* Generic.Deleted */
+.highlight .ge {
+  font-style: italic; }
+
+/* Generic.Emph */
+.highlight .gh {
+  color: #c5c8c6;
+  font-weight: bold; }
+
+/* Generic.Heading */
+.highlight .gi {
+  color: #b5bd68; }
+
+/* Generic.Inserted */
+.highlight .gp {
+  color: #969896;
+  font-weight: bold; }
+
+/* Generic.Prompt */
+.highlight .gs {
+  font-weight: bold; }
+
+/* Generic.Strong */
+.highlight .gu {
+  color: #8abeb7;
+  font-weight: bold; }
+
+/* Generic.Subheading */
+.highlight .kc {
+  color: #b294bb; }
+
+/* Keyword.Constant */
+.highlight .kd {
+  color: #b294bb; }
+
+/* Keyword.Declaration */
+.highlight .kn {
+  color: #8abeb7; }
+
+/* Keyword.Namespace */
+.highlight .kp {
+  color: #b294bb; }
+
+/* Keyword.Pseudo */
+.highlight .kr {
+  color: #b294bb; }
+
+/* Keyword.Reserved */
+.highlight .kt {
+  color: #f0c674; }
+
+/* Keyword.Type */
+.highlight .ld {
+  color: #b5bd68; }
+
+/* Literal.Date */
+.highlight .m {
+  color: #de935f; }
+
+/* Literal.Number */
+.highlight .s {
+  color: #b5bd68; }
+
+/* Literal.String */
+.highlight .na {
+  color: #81a2be; }
+
+/* Name.Attribute */
+.highlight .nb {
+  color: #c5c8c6; }
+
+/* Name.Builtin */
+.highlight .nc {
+  color: #f0c674; }
+
+/* Name.Class */
+.highlight .no {
+  color: #cc6666; }
+
+/* Name.Constant */
+.highlight .nd {
+  color: #8abeb7; }
+
+/* Name.Decorator */
+.highlight .ni {
+  color: #c5c8c6; }
+
+/* Name.Entity */
+.highlight .ne {
+  color: #cc6666; }
+
+/* Name.Exception */
+.highlight .nf {
+  color: #81a2be; }
+
+/* Name.Function */
+.highlight .nl {
+  color: #c5c8c6; }
+
+/* Name.Label */
+.highlight .nn {
+  color: #f0c674; }
+
+/* Name.Namespace */
+.highlight .nx {
+  color: #81a2be; }
+
+/* Name.Other */
+.highlight .py {
+  color: #c5c8c6; }
+
+/* Name.Property */
+.highlight .nt {
+  color: #8abeb7; }
+
+/* Name.Tag */
+.highlight .nv {
+  color: #cc6666; }
+
+/* Name.Variable */
+.highlight .ow {
+  color: #8abeb7; }
+
+/* Operator.Word */
+.highlight .w {
+  color: #c5c8c6; }
+
+/* Text.Whitespace */
+.highlight .mf {
+  color: #de935f; }
+
+/* Literal.Number.Float */
+.highlight .mh {
+  color: #de935f; }
+
+/* Literal.Number.Hex */
+.highlight .mi {
+  color: #de935f; }
+
+/* Literal.Number.Integer */
+.highlight .mo {
+  color: #de935f; }
+
+/* Literal.Number.Oct */
+.highlight .sb {
+  color: #b5bd68; }
+
+/* Literal.String.Backtick */
+.highlight .sc {
+  color: #c5c8c6; }
+
+/* Literal.String.Char */
+.highlight .sd {
+  color: #969896; }
+
+/* Literal.String.Doc */
+.highlight .s2 {
+  color: #b5bd68; }
+
+/* Literal.String.Double */
+.highlight .se {
+  color: #de935f; }
+
+/* Literal.String.Escape */
+.highlight .sh {
+  color: #b5bd68; }
+
+/* Literal.String.Heredoc */
+.highlight .si {
+  color: #de935f; }
+
+/* Literal.String.Interpol */
+.highlight .sx {
+  color: #b5bd68; }
+
+/* Literal.String.Other */
+.highlight .sr {
+  color: #b5bd68; }
+
+/* Literal.String.Regex */
+.highlight .s1 {
+  color: #b5bd68; }
+
+/* Literal.String.Single */
+.highlight .ss {
+  color: #b5bd68; }
+
+/* Literal.String.Symbol */
+.highlight .bp {
+  color: #c5c8c6; }
+
+/* Name.Builtin.Pseudo */
+.highlight .vc {
+  color: #cc6666; }
+
+/* Name.Variable.Class */
+.highlight .vg {
+  color: #cc6666; }
+
+/* Name.Variable.Global */
+.highlight .vi {
+  color: #cc6666; }
+
+/* Name.Variable.Instance */
+.highlight .il {
+  color: #de935f; }
+
+/* Literal.Number.Integer.Long */
 .icon > svg {
   display: inline-block;
   width: 16px;
@@ -620,8 +741,7 @@ pre,
 code {
   font-size: 15px;
   border: 1px solid #e8e8e8;
-  border-radius: 3px;
-  background-color: #eeeeff; }
+  border-radius: 3px; }
 
 code {
   padding: 1px 5px; }
@@ -2516,32 +2636,21 @@ body > figure > figcaption > header > h2 {
   
 
     <div class="px3 mb4">
-      <p>Code can be presented inline, like <code>&lt;?php bloginfo('stylesheet_url'); ?&gt;</code>, or within a <code>&lt;pre&gt;</code> block. Because we have more specific typographic needs for code, we’ll specify Consolas and Monaco ahead of the browser-defined monospace font.</p>
-
-<p>Code blocks can also be inserted with the highlight tag as below:</p>
-<pre>
-    
-    {% highlight language-x %}
-    # some code
-    {% endhighlight %}
-    
-</pre>
+      <p>Code can be presented inline, like <code>&lt;?php bloginfo('stylesheet_url'); ?&gt;</code>, or within a <code>``` ```</code> block.</p>
 
 <p>More information about code highlighting in jekyll can be found  <a href="https://jekyllrb.com/docs/templates/#code-snippet-highlighting">in Jekyll documentation</a>.</p>
 
 <p>These area a couple of examples showing the resulting highlighted code:</p>
 
-<figure class="highlight">
-  <pre><code class="language-css" data-lang="css"><span class="o">//</span> <span class="nt">css</span> <span class="nt">code</span> <span class="nt">sample</span>
+<div class="language-css highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="o">//</span> <span class="nt">css</span> <span class="nt">code</span> <span class="nt">sample</span>
 <span class="nf">#container</span> <span class="p">{</span>
     <span class="nl">float</span><span class="p">:</span> <span class="nb">left</span><span class="p">;</span>
     <span class="nl">margin</span><span class="p">:</span> <span class="m">0</span> <span class="m">-240px</span> <span class="m">0</span> <span class="m">0</span><span class="p">;</span>
     <span class="nl">width</span><span class="p">:</span> <span class="m">100%</span><span class="p">;</span>
-<span class="p">}</span></code></pre>
-</figure>
+<span class="p">}</span>
+</code></pre></div></div>
 
-<figure class="highlight">
-  <pre><code class="language-javascript" data-lang="javascript"><span class="c1">// javascript code sample</span>
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">// javascript code sample</span>
 <span class="nx">$</span><span class="p">.</span><span class="nx">ajax</span><span class="p">({</span>
   <span class="na">type</span><span class="p">:</span> <span class="s1">'POST'</span><span class="p">,</span>
   <span class="na">url</span><span class="p">:</span> <span class="s1">'backend.php'</span><span class="p">,</span>
@@ -2553,33 +2662,8 @@ body > figure > figcaption > header > h2 {
     <span class="c1">// if ajax fails display error alert</span>
     <span class="nx">alert</span><span class="p">(</span><span class="s2">"ajax error response type "</span><span class="o">+</span><span class="nx">type</span><span class="p">);</span>
   <span class="p">}</span>
-<span class="p">});</span></code></pre>
-</figure>
-
-<p>Now you can also use <a href="https://highlightjs.org/">highlight.js</a>.
-For more on how to use it and on the available styles check their
-<a href="https://highlightjs.org/static/demo/">demo</a> and
-<a href="http://highlightjs.readthedocs.org/en/latest/">documentation</a> pages.</p>
-
-<div class="system">
-  <pre><code class="swift">// Swift code sample
-import Foundation
-
-@objc class Person: Entity {
-  var name: String!
-  var age:  Int!
-
-  init(name: String, age: Int) {
-    /* /* ... */ */
-  }
-
-  // Return a descriptive string for this person
-  func description(offset: Int = 0) -&gt; String {
-    return "\(name) is \(age + offset) years old"
-  }
-}
-</code></pre>
-</div>
+<span class="p">});</span>
+</code></pre></div></div>
 
     </div>
 

@@ -5,8 +5,8 @@
     <description>Hanuman is a minimal yet powerful Jekyll theme for your blogs and websites.</description>
     <link>https://samanyougarg.com/hanuman//</link>
     <atom:link href="https://samanyougarg.com/hanuman//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 09 Dec 2017 08:33:27 +0000</pubDate>
-    <lastBuildDate>Sat, 09 Dec 2017 08:33:27 +0000</lastBuildDate>
+    <pubDate>Sat, 09 Dec 2017 09:37:13 +0000</pubDate>
+    <lastBuildDate>Sat, 09 Dec 2017 09:37:13 +0000</lastBuildDate>
     <generator>Jekyll v3.6.2</generator>
     
       <item>
@@ -291,17 +291,15 @@ SUBMIT
 
 &lt;p&gt;These area a couple of examples showing the resulting highlighted code:&lt;/p&gt;
 
-&lt;figure class=&quot;highlight&quot;&gt;
-  &lt;pre&gt;&lt;code class=&quot;language-css&quot; data-lang=&quot;css&quot;&gt;&lt;span class=&quot;c&quot;&gt;/* css code sample */&lt;/span&gt;
+&lt;div class=&quot;language-css highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c&quot;&gt;/* css code sample */&lt;/span&gt;
 &lt;span class=&quot;nf&quot;&gt;#container&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
     &lt;span class=&quot;nl&quot;&gt;float&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;left&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
     &lt;span class=&quot;nl&quot;&gt;margin&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;0&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;-240px&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;0&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
     &lt;span class=&quot;nl&quot;&gt;width&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;100%&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
-&lt;/figure&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;figure class=&quot;highlight&quot;&gt;
-  &lt;pre&gt;&lt;code class=&quot;language-javascript&quot; data-lang=&quot;javascript&quot;&gt;&lt;span class=&quot;c1&quot;&gt;// javascript code sample&lt;/span&gt;
+&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;// javascript code sample&lt;/span&gt;
 &lt;span class=&quot;nx&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;ajax&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;({&lt;/span&gt;
   &lt;span class=&quot;na&quot;&gt;type&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'POST'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
   &lt;span class=&quot;na&quot;&gt;url&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'backend.php'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
@@ -313,33 +311,26 @@ SUBMIT
     &lt;span class=&quot;c1&quot;&gt;// if ajax fails display error alert&lt;/span&gt;
     &lt;span class=&quot;nx&quot;&gt;alert&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;ajax error response type &quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;type&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
   &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;});&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
-&lt;/figure&gt;
+&lt;span class=&quot;p&quot;&gt;});&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;p&gt;Now you can also use &lt;a href=&quot;https://highlightjs.org/&quot;&gt;highlight.js&lt;/a&gt;.
-For more on how to use it and on the available styles check their
-&lt;a href=&quot;https://highlightjs.org/static/demo/&quot;&gt;demo&lt;/a&gt; and
-&lt;a href=&quot;http://highlightjs.readthedocs.org/en/latest/&quot;&gt;documentation&lt;/a&gt; pages.&lt;/p&gt;
+&lt;div class=&quot;language-swift highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;// Swift code sample&lt;/span&gt;
+&lt;span class=&quot;kd&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;Foundation&lt;/span&gt;
 
-&lt;div class=&quot;system&quot;&gt;
-  &lt;pre&gt;&lt;code class=&quot;swift&quot;&gt;// Swift code sample
-import Foundation
+&lt;span class=&quot;kd&quot;&gt;@objc&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;Person&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;Entity&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;String&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;!&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;age&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;  &lt;span class=&quot;kt&quot;&gt;Int&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;!&lt;/span&gt;
 
-@objc class Person: Entity {
-  var name: String!
-  var age:  Int!
+  &lt;span class=&quot;nf&quot;&gt;init&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;String&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;age&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;Int&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;cm&quot;&gt;/* /* ... */ */&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
 
-  init(name: String, age: Int) {
-    /* /* ... */ */
-  }
-
-  // Return a descriptive string for this person
-  func description(offset: Int = 0) -&amp;gt; String {
-    return &quot;\(name) is \(age + offset) years old&quot;
-  }
-}
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+  &lt;span class=&quot;c1&quot;&gt;// Return a descriptive string for this person&lt;/span&gt;
+  &lt;span class=&quot;kd&quot;&gt;func&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;description&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;offset&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;Int&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&amp;gt;&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;String&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;s&quot;&gt; is &lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;age&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;offset&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;s&quot;&gt; years old&quot;&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;hr /&gt;
 
@@ -418,32 +409,21 @@ proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&g
     
       <item>
         <title>Code</title>
-        <description>&lt;p&gt;Code can be presented inline, like &lt;code&gt;&amp;lt;?php bloginfo('stylesheet_url'); ?&amp;gt;&lt;/code&gt;, or within a &lt;code&gt;&amp;lt;pre&amp;gt;&lt;/code&gt; block. Because we have more specific typographic needs for code, we’ll specify Consolas and Monaco ahead of the browser-defined monospace font.&lt;/p&gt;
-
-&lt;p&gt;Code blocks can also be inserted with the highlight tag as below:&lt;/p&gt;
-&lt;pre&gt;
-    
-    {% highlight language-x %}
-    # some code
-    {% endhighlight %}
-    
-&lt;/pre&gt;
+        <description>&lt;p&gt;Code can be presented inline, like &lt;code&gt;&amp;lt;?php bloginfo('stylesheet_url'); ?&amp;gt;&lt;/code&gt;, or within a &lt;code&gt;``` ```&lt;/code&gt; block.&lt;/p&gt;
 
 &lt;p&gt;More information about code highlighting in jekyll can be found  &lt;a href=&quot;https://jekyllrb.com/docs/templates/#code-snippet-highlighting&quot;&gt;in Jekyll documentation&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;These area a couple of examples showing the resulting highlighted code:&lt;/p&gt;
 
-&lt;figure class=&quot;highlight&quot;&gt;
-  &lt;pre&gt;&lt;code class=&quot;language-css&quot; data-lang=&quot;css&quot;&gt;&lt;span class=&quot;o&quot;&gt;//&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;css&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;code&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;sample&lt;/span&gt;
+&lt;div class=&quot;language-css highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;o&quot;&gt;//&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;css&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;code&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;sample&lt;/span&gt;
 &lt;span class=&quot;nf&quot;&gt;#container&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
     &lt;span class=&quot;nl&quot;&gt;float&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;left&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
     &lt;span class=&quot;nl&quot;&gt;margin&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;0&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;-240px&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;0&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
     &lt;span class=&quot;nl&quot;&gt;width&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;100%&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
-&lt;/figure&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;figure class=&quot;highlight&quot;&gt;
-  &lt;pre&gt;&lt;code class=&quot;language-javascript&quot; data-lang=&quot;javascript&quot;&gt;&lt;span class=&quot;c1&quot;&gt;// javascript code sample&lt;/span&gt;
+&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;// javascript code sample&lt;/span&gt;
 &lt;span class=&quot;nx&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;ajax&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;({&lt;/span&gt;
   &lt;span class=&quot;na&quot;&gt;type&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'POST'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
   &lt;span class=&quot;na&quot;&gt;url&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'backend.php'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
@@ -455,33 +435,8 @@ proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&g
     &lt;span class=&quot;c1&quot;&gt;// if ajax fails display error alert&lt;/span&gt;
     &lt;span class=&quot;nx&quot;&gt;alert&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;ajax error response type &quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;type&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
   &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;});&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;Now you can also use &lt;a href=&quot;https://highlightjs.org/&quot;&gt;highlight.js&lt;/a&gt;.
-For more on how to use it and on the available styles check their
-&lt;a href=&quot;https://highlightjs.org/static/demo/&quot;&gt;demo&lt;/a&gt; and
-&lt;a href=&quot;http://highlightjs.readthedocs.org/en/latest/&quot;&gt;documentation&lt;/a&gt; pages.&lt;/p&gt;
-
-&lt;div class=&quot;system&quot;&gt;
-  &lt;pre&gt;&lt;code class=&quot;swift&quot;&gt;// Swift code sample
-import Foundation
-
-@objc class Person: Entity {
-  var name: String!
-  var age:  Int!
-
-  init(name: String, age: Int) {
-    /* /* ... */ */
-  }
-
-  // Return a descriptive string for this person
-  func description(offset: Int = 0) -&amp;gt; String {
-    return &quot;\(name) is \(age + offset) years old&quot;
-  }
-}
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+&lt;span class=&quot;p&quot;&gt;});&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 </description>
         <pubDate>Tue, 28 Nov 2017 04:00:00 +0000</pubDate>
         <link>https://samanyougarg.com/hanuman//code</link>
