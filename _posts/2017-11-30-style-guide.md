@@ -35,19 +35,209 @@ author: Author
 
 <hr />
 
-<h2 id="media">Media</h2>
+<h2>Media</h2>
 
 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
 
-<h3 id="image">Image</h3>
+<h3>Image</h3>
 
 <amp-img src="{{ site.baseurl }}assets/images/shiva.jpg" width="656" height="400" layout="responsive" alt="" class="mb3"></amp-img>
 
 <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
 
+<hr/>
+
+<h3>Buttons</h3>
+
+<main class="flex flex-wrap justify-around align-item items-center">
+<div class="flex flex-column mb2 items-center">
+<h4>Primary</h4>
+<button class="ampstart-btn">
+SUBMIT
+</button>
+</div>
+<div class="flex flex-column mb2 items-center">
+<h4>Primary Disabled</h4>
+<button class="ampstart-btn" disabled>
+SUBMIT
+</button>
+</div>
+</main>
+
+<main class="flex flex-wrap justify-around align-item items-center">
+<div class="flex flex-column mb2 items-center">
+<h4>Secondary</h4>
+<button class="ampstart-btn ampstart-btn-secondary">
+SUBMIT
+</button>
+</div>
+<div class="flex flex-column mb2 items-center">
+<h4>Secondary Disabled</h4>
+<button class="ampstart-btn ampstart-btn-secondary" disabled>
+SUBMIT
+</button>
+</div>
+</main>
+
 <hr />
 
-<h2 id="listtypes">List Types</h2>
+<h3>Form</h3>
+
+<main class="flex flex-wrap justify-around align-item items-center" markdown="0">
+<div class="flex flex-column items-center">
+  <label class="www-example-label bold mb3">On</label>
+  <div class="ampstart-input ampstart-input-chk inline-block relative m0 p0 mb3 ">
+    <input type="checkbox" value="1" name="cb" id="cb1" class="p0 m0 relative" checked="">
+    <label for="cb1" class="" aria-hidden="true">Chkbox 1</label>
+  </div>
+</div>
+
+<div class="flex flex-column items-center">
+  <label class="www-example-label bold mb3">Off</label>
+  <div class="ampstart-input ampstart-input-chk inline-block relative m0 p0 mb3 ">
+    <input type="checkbox" value="2" name="cb" id="cb2" class="p0 m0 relative">
+    <label for="cb2" class="" aria-hidden="true">Chkbox 2</label>
+  </div>
+</div>
+
+<div class="flex flex-column items-center">
+  <label class="www-example-label bold mb3">Disabled</label>
+  <div class="ampstart-input ampstart-input-chk inline-block relative m0 p0 mb3 ">
+    <input type="checkbox" value="3" name="cb" id="cb3" class="p0 m0 relative" disabled="">
+    <label for="cb3" class="" aria-hidden="true">Chkbox 3</label>
+  </div>
+</div>
+</main>
+
+
+<main class="flex flex-wrap justify-around align-item items-center" markdown="0">
+<div class="flex flex-column items-center">
+  <label class="www-example-label bold mb3">On</label>
+  <div class="ampstart-input ampstart-input-radio inline-block relative m0 p0 mb3 ">
+    <input type="radio" value="1" name="rb" id="rb1" class="relative" checked="">
+    <label for="rb1" class="" aria-hidden="true">Radio 1</label>
+  </div>
+</div>
+
+<div class="flex flex-column items-center">
+  <label class="www-example-label bold mb3">Off</label>
+  <div class="ampstart-input ampstart-input-radio inline-block relative m0 p0 mb3 ">
+    <input type="radio" value="2" name="rb" id="rb2" class="relative">
+    <label for="rb2" class="" aria-hidden="true">Radio 2</label>
+  </div>
+</div>
+
+<div class="flex flex-column items-center">
+  <label class="www-example-label bold mb3">Disabled</label>
+  <div class="ampstart-input ampstart-input-radio inline-block relative m0 p0 mb3 ">
+    <input type="radio" value="3" name="rb" id="rb3" class="relative" disabled="">
+    <label for="rb3" class="" aria-hidden="true">Radio 3</label>
+  </div>
+</div>
+</main>
+
+<main class="flex flex-wrap justify-around align-item items-center" markdown="0">
+<div class="flex flex-column items-center">
+  <label class="www-example-label bold mb3">Textbox</label>
+  <div class="ampstart-input inline-block relative m0 p0 mb3 ">
+    <input type="text" value="" name="name1" id="ip1" class="block border-none p0 m0 user-valid valid" placeholder="Enter your Name">
+    <label for="ip1" class="absolute top-0 right-0 bottom-0 left-0" aria-hidden="true">Enter your Name</label>
+  </div>
+</div>
+
+<div class="flex flex-column items-center">
+  <label class="www-example-label bold mb3">Textbox Filled</label>
+  <div class="ampstart-input inline-block relative m0 p0 mb3 ">
+    <input type="text" value="John Smith" name="name1" id="ip1" class="block border-none p0 m0 user-valid valid" placeholder="Enter your Name">
+    <label for="ip1" class="absolute top-0 right-0 bottom-0 left-0" aria-hidden="true">Enter your Name</label>
+  </div>
+</div>
+
+<div class="flex flex-column items-center">
+  <label class="www-example-label bold mb3">Disabled Textbox</label>
+  <div class="ampstart-input inline-block relative m0 p0 mb3 ">
+    <input type="text" value="" name="name1" id="ip1" class="block border-none p0 m0" placeholder="This input is Disabled" disabled="">
+    <label for="ip1" class="absolute top-0 right-0 bottom-0 left-0" aria-hidden="true">This input is Disabled</label>
+  </div>
+</div>
+
+<div class="flex flex-column items-center">
+  <label class="www-example-label bold mb3">Date Input</label>
+  <div class="ampstart-input inline-block relative m0 p0 mb3 ">
+    <input type="date" value="2020-10-10" name="name4" id="ip4" class="block border-none p0 m0" placeholder="Date of Expiry">
+    <label for="ip4" class="absolute top-0 right-0 bottom-0 left-0" aria-hidden="true">Date of Expiry</label>
+  </div>
+</div>
+</main>
+
+<main class="flex flex-wrap justify-around align-item items-center" markdown="0">
+<div class="flex flex-column items-center">
+  <label class="www-example-label bold mb3">Range Input</label>
+  <div class="ampstart-input inline-block relative m0 p0 mb3 ">
+    <input type="range" value="" name="name11" id="ip11" class="block border-none p0 m0" placeholder="Select a range">
+    <label for="ip11" class="absolute top-0 right-0 bottom-0 left-0" aria-hidden="true">Select a range</label>
+  </div>
+</div>
+
+<div class="flex flex-column items-center">
+  <label class="www-example-label bold mb3">Disabled Range Input</label>
+  <div class="ampstart-input inline-block relative m0 p0 mb3 ">
+    <input type="range" value="" name="name11" id="ip11a" class="block border-none p0 m0" placeholder="Select a range" disabled="">
+    <label for="ip11a" class="absolute top-0 right-0 bottom-0 left-0" aria-hidden="true">Select a range</label>
+    </div>
+</div>
+</main>
+
+
+<main class="flex flex-wrap justify-around align-item items-center" markdown="0">
+<div class="flex flex-column items-center">
+  <label class="www-example-label bold mb3">Textarea</label>
+  <div class="ampstart-input inline-block relative m0 p0 mb3 ">
+    <textarea name="name13" id="ip13" class="block border-none  p0 m0" rows="5"></textarea>
+    <label for="ip13" class="absolute top-0 right-0 bottom-0 left-0" aria-hidden="true">Write your story</label>
+  </div>
+</div>
+    
+<div class="flex flex-column items-center">
+  <label class="www-example-label bold mb3">Disabled Textarea</label>
+  <div class="ampstart-input inline-block relative m0 p0 mb3 ">
+    <textarea name="name13" id="ip13a" class="block border-none  p0 m0" rows="5" disabled=""></textarea>
+    <label for="ip13a" class="absolute top-0 right-0 bottom-0 left-0" aria-hidden="true">This input is disabled</label>
+  </div>
+</div>
+</main>
+
+<main class="flex flex-wrap justify-around align-item items-center" markdown="0">
+<div class="flex flex-column items-center">
+  <label class="www-example-label bold mb3">Select</label>
+  <div class="ampstart-input inline-block relative m0 p0 mb3 ">
+    <select name="name12" id="ip12" class="block border-none p0 m0 user-valid valid">
+        <option value="">Apple</option>
+        <option value="">Orange</option>
+        <option value="">Lemon</option>
+        <option value="">Grape</option>
+    </select>
+    <label for="ip12" class="absolute top-0 right-0 bottom-0 left-0" aria-hidden="true">Select a fruit</label>
+  </div>
+</div>
+
+<div class="flex flex-column items-center">
+  <label class="www-example-label bold mb3">Disabled Select</label>
+  <div class="ampstart-input inline-block relative m0 p0 mb3 ">
+    <select name="name12" id="ip12a" class="block border-none  p0 m0" disabled="">
+        <option value="">Apple</option>
+        <option value="">Orange</option>
+        <option value="">Lemon</option>
+        <option value="">Grape</option>
+    </select>
+    <label for="ip12a" class="absolute top-0 right-0 bottom-0 left-0" aria-hidden="true">Select a fruit</label>
+  </div>
+</div>
+</main>
+
+<hr/>
+
+<h2>List Types</h2>
 
 <h3>Definition List</h3>
 
@@ -195,69 +385,6 @@ The <var>var element</var> example <br />
 The <u>u element</u> example</p>
 
 <hr />
-
-<h2 id="forms">Forms</h2>
-
-<form action="post" action-xhr="https://example.com/subscribe" target="_top">
-<fieldset>
-<legend>Inputs as descendents of labels (form legend)</legend>
-<label>
-<b>Text input</b>
-<input type="text" value="default value">
-</label>
-<label>
-<b>Email input</b>
-<input type="email">
-</label>
-<label>
-<b>Search input</b>
-<input type="search">
-</label>
-<label>
-<b>Tel input</b>
-<input type="tel">
-</label>
-<label>
-<b>URL input</b>
-<input type="url" placeholder="http://">
-</label>
-<label>
-<b>Password input</b>
-<input type="text" value="password">
-</label>
-<label>
-<b>Radio input</b>
-<input type="radio" name="rad">
-</label>
-<label>
-<b>Checkbox input</b>
-<input type="checkbox">
-</label>
-<label>
-<input type="radio" name="rad"> Radio input
-</label>
-<label>
-<input type="checkbox"> Checkbox input
-</label>
-<label>
-<b>Select field</b>
-<select>
-<option>Option 01</option>
-<option>Option 02</option>
-</select>
-</label>
-<label>
-<b>Textarea</b>
-<textarea cols="30" rows="5" >Textarea text</textarea>
-</label>
-</fieldset>
-</form>
-
-<hr />
-
-<h2 id="embeds">Embeds</h2>
-
-<p>Sometimes all you want to do is embed a little love from another location and set your post alive.</p>
 
 <h3 id="video">Video</h3>
 
