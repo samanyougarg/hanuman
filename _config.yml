@@ -12,9 +12,9 @@ paginate:	5 # The number of posts to show per page on your homepage
 facebook: facebook
 twitter: twitter
 github:  github
-about: about
 
 #Additional Pages
+about: about
 contact: contact
 privacy-policy: privacy-policy
 
@@ -43,7 +43,7 @@ repo: hanuman #github repository
 branch: master #branch
 relative_source: ../hanuman/ #source directory
 destination: ../hanuman-pages/ #destination directory
-production_url:  https://shriradhakrishna.com/
+production_url:  https://samanyougarg.com/
 source_url:  https://github.com/samanyougarg/hanuman #source repository url
 
 exclude:
