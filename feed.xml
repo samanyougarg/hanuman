@@ -5,8 +5,8 @@
     <description>Hanuman is a minimal yet powerful Jekyll theme for your blogs and websites.</description>
     <link>https://samanyougarg.com/hanuman//</link>
     <atom:link href="https://samanyougarg.com/hanuman//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 08 Dec 2017 14:22:09 +0000</pubDate>
-    <lastBuildDate>Fri, 08 Dec 2017 14:22:09 +0000</lastBuildDate>
+    <pubDate>Sat, 09 Dec 2017 08:33:27 +0000</pubDate>
+    <lastBuildDate>Sat, 09 Dec 2017 08:33:27 +0000</lastBuildDate>
     <generator>Jekyll v3.6.2</generator>
     
       <item>
@@ -37,11 +37,11 @@
 
 &lt;hr /&gt;
 
-&lt;h2 id=&quot;media&quot;&gt;Media&lt;/h2&gt;
+&lt;h2&gt;Media&lt;/h2&gt;
 
 &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.&lt;/p&gt;
 
-&lt;h3 id=&quot;image&quot;&gt;Image&lt;/h3&gt;
+&lt;h3&gt;Image&lt;/h3&gt;
 
 &lt;amp-img src=&quot;/hanuman/assets/images/shiva.jpg&quot; width=&quot;656&quot; height=&quot;400&quot; layout=&quot;responsive&quot; alt=&quot;&quot; class=&quot;mb3&quot;&gt;&lt;/amp-img&gt;
 
@@ -49,7 +49,195 @@
 
 &lt;hr /&gt;
 
-&lt;h2 id=&quot;listtypes&quot;&gt;List Types&lt;/h2&gt;
+&lt;h3&gt;Buttons&lt;/h3&gt;
+
+&lt;main class=&quot;flex flex-wrap justify-around align-item items-center&quot;&gt;
+  &lt;div class=&quot;flex flex-column mb2 items-center&quot;&gt;
+    &lt;h4&gt;Primary&lt;/h4&gt;
+    &lt;p&gt;&lt;button class=&quot;ampstart-btn&quot;&gt;
+SUBMIT
+&lt;/button&gt;&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;flex flex-column mb2 items-center&quot;&gt;
+    &lt;h4&gt;Primary Disabled&lt;/h4&gt;
+    &lt;p&gt;&lt;button class=&quot;ampstart-btn&quot; disabled=&quot;&quot;&gt;
+SUBMIT
+&lt;/button&gt;&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/main&gt;
+
+&lt;main class=&quot;flex flex-wrap justify-around align-item items-center&quot;&gt;
+  &lt;div class=&quot;flex flex-column mb2 items-center&quot;&gt;
+    &lt;h4&gt;Secondary&lt;/h4&gt;
+    &lt;p&gt;&lt;button class=&quot;ampstart-btn ampstart-btn-secondary&quot;&gt;
+SUBMIT
+&lt;/button&gt;&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;flex flex-column mb2 items-center&quot;&gt;
+    &lt;h4&gt;Secondary Disabled&lt;/h4&gt;
+    &lt;p&gt;&lt;button class=&quot;ampstart-btn ampstart-btn-secondary&quot; disabled=&quot;&quot;&gt;
+SUBMIT
+&lt;/button&gt;&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/main&gt;
+
+&lt;hr /&gt;
+
+&lt;h3&gt;Form&lt;/h3&gt;
+
+&lt;main class=&quot;flex flex-wrap justify-around align-item items-center&quot;&gt;
+&lt;div class=&quot;flex flex-column items-center&quot;&gt;
+  &lt;label class=&quot;www-example-label bold mb3&quot;&gt;On&lt;/label&gt;
+  &lt;div class=&quot;ampstart-input ampstart-input-chk inline-block relative m0 p0 mb3 &quot;&gt;
+    &lt;input type=&quot;checkbox&quot; value=&quot;1&quot; name=&quot;cb&quot; id=&quot;cb1&quot; class=&quot;p0 m0 relative&quot; checked=&quot;&quot; /&gt;
+    &lt;label for=&quot;cb1&quot; class=&quot;&quot; aria-hidden=&quot;true&quot;&gt;Chkbox 1&lt;/label&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;flex flex-column items-center&quot;&gt;
+  &lt;label class=&quot;www-example-label bold mb3&quot;&gt;Off&lt;/label&gt;
+  &lt;div class=&quot;ampstart-input ampstart-input-chk inline-block relative m0 p0 mb3 &quot;&gt;
+    &lt;input type=&quot;checkbox&quot; value=&quot;2&quot; name=&quot;cb&quot; id=&quot;cb2&quot; class=&quot;p0 m0 relative&quot; /&gt;
+    &lt;label for=&quot;cb2&quot; class=&quot;&quot; aria-hidden=&quot;true&quot;&gt;Chkbox 2&lt;/label&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;flex flex-column items-center&quot;&gt;
+  &lt;label class=&quot;www-example-label bold mb3&quot;&gt;Disabled&lt;/label&gt;
+  &lt;div class=&quot;ampstart-input ampstart-input-chk inline-block relative m0 p0 mb3 &quot;&gt;
+    &lt;input type=&quot;checkbox&quot; value=&quot;3&quot; name=&quot;cb&quot; id=&quot;cb3&quot; class=&quot;p0 m0 relative&quot; disabled=&quot;&quot; /&gt;
+    &lt;label for=&quot;cb3&quot; class=&quot;&quot; aria-hidden=&quot;true&quot;&gt;Chkbox 3&lt;/label&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;/main&gt;
+
+&lt;main class=&quot;flex flex-wrap justify-around align-item items-center&quot;&gt;
+&lt;div class=&quot;flex flex-column items-center&quot;&gt;
+  &lt;label class=&quot;www-example-label bold mb3&quot;&gt;On&lt;/label&gt;
+  &lt;div class=&quot;ampstart-input ampstart-input-radio inline-block relative m0 p0 mb3 &quot;&gt;
+    &lt;input type=&quot;radio&quot; value=&quot;1&quot; name=&quot;rb&quot; id=&quot;rb1&quot; class=&quot;relative&quot; checked=&quot;&quot; /&gt;
+    &lt;label for=&quot;rb1&quot; class=&quot;&quot; aria-hidden=&quot;true&quot;&gt;Radio 1&lt;/label&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;flex flex-column items-center&quot;&gt;
+  &lt;label class=&quot;www-example-label bold mb3&quot;&gt;Off&lt;/label&gt;
+  &lt;div class=&quot;ampstart-input ampstart-input-radio inline-block relative m0 p0 mb3 &quot;&gt;
+    &lt;input type=&quot;radio&quot; value=&quot;2&quot; name=&quot;rb&quot; id=&quot;rb2&quot; class=&quot;relative&quot; /&gt;
+    &lt;label for=&quot;rb2&quot; class=&quot;&quot; aria-hidden=&quot;true&quot;&gt;Radio 2&lt;/label&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;flex flex-column items-center&quot;&gt;
+  &lt;label class=&quot;www-example-label bold mb3&quot;&gt;Disabled&lt;/label&gt;
+  &lt;div class=&quot;ampstart-input ampstart-input-radio inline-block relative m0 p0 mb3 &quot;&gt;
+    &lt;input type=&quot;radio&quot; value=&quot;3&quot; name=&quot;rb&quot; id=&quot;rb3&quot; class=&quot;relative&quot; disabled=&quot;&quot; /&gt;
+    &lt;label for=&quot;rb3&quot; class=&quot;&quot; aria-hidden=&quot;true&quot;&gt;Radio 3&lt;/label&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;/main&gt;
+
+&lt;main class=&quot;flex flex-wrap justify-around align-item items-center&quot;&gt;
+&lt;div class=&quot;flex flex-column items-center&quot;&gt;
+  &lt;label class=&quot;www-example-label bold mb3&quot;&gt;Textbox&lt;/label&gt;
+  &lt;div class=&quot;ampstart-input inline-block relative m0 p0 mb3 &quot;&gt;
+    &lt;input type=&quot;text&quot; value=&quot;&quot; name=&quot;name1&quot; id=&quot;ip1&quot; class=&quot;block border-none p0 m0 user-valid valid&quot; placeholder=&quot;Enter your Name&quot; /&gt;
+    &lt;label for=&quot;ip1&quot; class=&quot;absolute top-0 right-0 bottom-0 left-0&quot; aria-hidden=&quot;true&quot;&gt;Enter your Name&lt;/label&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;flex flex-column items-center&quot;&gt;
+  &lt;label class=&quot;www-example-label bold mb3&quot;&gt;Textbox Filled&lt;/label&gt;
+  &lt;div class=&quot;ampstart-input inline-block relative m0 p0 mb3 &quot;&gt;
+    &lt;input type=&quot;text&quot; value=&quot;John Smith&quot; name=&quot;name1&quot; id=&quot;ip1&quot; class=&quot;block border-none p0 m0 user-valid valid&quot; placeholder=&quot;Enter your Name&quot; /&gt;
+    &lt;label for=&quot;ip1&quot; class=&quot;absolute top-0 right-0 bottom-0 left-0&quot; aria-hidden=&quot;true&quot;&gt;Enter your Name&lt;/label&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;flex flex-column items-center&quot;&gt;
+  &lt;label class=&quot;www-example-label bold mb3&quot;&gt;Disabled Textbox&lt;/label&gt;
+  &lt;div class=&quot;ampstart-input inline-block relative m0 p0 mb3 &quot;&gt;
+    &lt;input type=&quot;text&quot; value=&quot;&quot; name=&quot;name1&quot; id=&quot;ip1&quot; class=&quot;block border-none p0 m0&quot; placeholder=&quot;This input is Disabled&quot; disabled=&quot;&quot; /&gt;
+    &lt;label for=&quot;ip1&quot; class=&quot;absolute top-0 right-0 bottom-0 left-0&quot; aria-hidden=&quot;true&quot;&gt;This input is Disabled&lt;/label&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;flex flex-column items-center&quot;&gt;
+  &lt;label class=&quot;www-example-label bold mb3&quot;&gt;Date Input&lt;/label&gt;
+  &lt;div class=&quot;ampstart-input inline-block relative m0 p0 mb3 &quot;&gt;
+    &lt;input type=&quot;date&quot; value=&quot;2020-10-10&quot; name=&quot;name4&quot; id=&quot;ip4&quot; class=&quot;block border-none p0 m0&quot; placeholder=&quot;Date of Expiry&quot; /&gt;
+    &lt;label for=&quot;ip4&quot; class=&quot;absolute top-0 right-0 bottom-0 left-0&quot; aria-hidden=&quot;true&quot;&gt;Date of Expiry&lt;/label&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;/main&gt;
+
+&lt;main class=&quot;flex flex-wrap justify-around align-item items-center&quot;&gt;
+&lt;div class=&quot;flex flex-column items-center&quot;&gt;
+  &lt;label class=&quot;www-example-label bold mb3&quot;&gt;Range Input&lt;/label&gt;
+  &lt;div class=&quot;ampstart-input inline-block relative m0 p0 mb3 &quot;&gt;
+    &lt;input type=&quot;range&quot; value=&quot;&quot; name=&quot;name11&quot; id=&quot;ip11&quot; class=&quot;block border-none p0 m0&quot; placeholder=&quot;Select a range&quot; /&gt;
+    &lt;label for=&quot;ip11&quot; class=&quot;absolute top-0 right-0 bottom-0 left-0&quot; aria-hidden=&quot;true&quot;&gt;Select a range&lt;/label&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;flex flex-column items-center&quot;&gt;
+  &lt;label class=&quot;www-example-label bold mb3&quot;&gt;Disabled Range Input&lt;/label&gt;
+  &lt;div class=&quot;ampstart-input inline-block relative m0 p0 mb3 &quot;&gt;
+    &lt;input type=&quot;range&quot; value=&quot;&quot; name=&quot;name11&quot; id=&quot;ip11a&quot; class=&quot;block border-none p0 m0&quot; placeholder=&quot;Select a range&quot; disabled=&quot;&quot; /&gt;
+    &lt;label for=&quot;ip11a&quot; class=&quot;absolute top-0 right-0 bottom-0 left-0&quot; aria-hidden=&quot;true&quot;&gt;Select a range&lt;/label&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;/main&gt;
+
+&lt;main class=&quot;flex flex-wrap justify-around align-item items-center&quot;&gt;
+&lt;div class=&quot;flex flex-column items-center&quot;&gt;
+  &lt;label class=&quot;www-example-label bold mb3&quot;&gt;Textarea&lt;/label&gt;
+  &lt;div class=&quot;ampstart-input inline-block relative m0 p0 mb3 &quot;&gt;
+    &lt;textarea name=&quot;name13&quot; id=&quot;ip13&quot; class=&quot;block border-none  p0 m0&quot; rows=&quot;5&quot;&gt;&lt;/textarea&gt;
+    &lt;label for=&quot;ip13&quot; class=&quot;absolute top-0 right-0 bottom-0 left-0&quot; aria-hidden=&quot;true&quot;&gt;Write your story&lt;/label&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+    
+&lt;div class=&quot;flex flex-column items-center&quot;&gt;
+  &lt;label class=&quot;www-example-label bold mb3&quot;&gt;Disabled Textarea&lt;/label&gt;
+  &lt;div class=&quot;ampstart-input inline-block relative m0 p0 mb3 &quot;&gt;
+    &lt;textarea name=&quot;name13&quot; id=&quot;ip13a&quot; class=&quot;block border-none  p0 m0&quot; rows=&quot;5&quot; disabled=&quot;&quot;&gt;&lt;/textarea&gt;
+    &lt;label for=&quot;ip13a&quot; class=&quot;absolute top-0 right-0 bottom-0 left-0&quot; aria-hidden=&quot;true&quot;&gt;This input is disabled&lt;/label&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;/main&gt;
+
+&lt;main class=&quot;flex flex-wrap justify-around align-item items-center&quot;&gt;
+&lt;div class=&quot;flex flex-column items-center&quot;&gt;
+  &lt;label class=&quot;www-example-label bold mb3&quot;&gt;Select&lt;/label&gt;
+  &lt;div class=&quot;ampstart-input inline-block relative m0 p0 mb3 &quot;&gt;
+    &lt;select name=&quot;name12&quot; id=&quot;ip12&quot; class=&quot;block border-none p0 m0 user-valid valid&quot;&gt;
+        &lt;option value=&quot;&quot;&gt;Apple&lt;/option&gt;
+        &lt;option value=&quot;&quot;&gt;Orange&lt;/option&gt;
+        &lt;option value=&quot;&quot;&gt;Lemon&lt;/option&gt;
+        &lt;option value=&quot;&quot;&gt;Grape&lt;/option&gt;
+    &lt;/select&gt;
+    &lt;label for=&quot;ip12&quot; class=&quot;absolute top-0 right-0 bottom-0 left-0&quot; aria-hidden=&quot;true&quot;&gt;Select a fruit&lt;/label&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;flex flex-column items-center&quot;&gt;
+  &lt;label class=&quot;www-example-label bold mb3&quot;&gt;Disabled Select&lt;/label&gt;
+  &lt;div class=&quot;ampstart-input inline-block relative m0 p0 mb3 &quot;&gt;
+    &lt;select name=&quot;name12&quot; id=&quot;ip12a&quot; class=&quot;block border-none  p0 m0&quot; disabled=&quot;&quot;&gt;
+        &lt;option value=&quot;&quot;&gt;Apple&lt;/option&gt;
+        &lt;option value=&quot;&quot;&gt;Orange&lt;/option&gt;
+        &lt;option value=&quot;&quot;&gt;Lemon&lt;/option&gt;
+        &lt;option value=&quot;&quot;&gt;Grape&lt;/option&gt;
+    &lt;/select&gt;
+    &lt;label for=&quot;ip12a&quot; class=&quot;absolute top-0 right-0 bottom-0 left-0&quot; aria-hidden=&quot;true&quot;&gt;Select a fruit&lt;/label&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;/main&gt;
+
+&lt;hr /&gt;
+
+&lt;h2&gt;List Types&lt;/h2&gt;
 
 &lt;h3&gt;Definition List&lt;/h3&gt;
 
@@ -194,69 +382,6 @@ The &lt;u&gt;u element&lt;/u&gt; example&lt;/p&gt;
 
 &lt;hr /&gt;
 
-&lt;h2 id=&quot;forms&quot;&gt;Forms&lt;/h2&gt;
-
-&lt;form action=&quot;post&quot; action-xhr=&quot;https://example.com/subscribe&quot; target=&quot;_top&quot;&gt;
-  &lt;fieldset&gt;
-    &lt;legend&gt;Inputs as descendents of labels (form legend)&lt;/legend&gt;
-    &lt;p&gt;&lt;label&gt;
-&lt;b&gt;Text input&lt;/b&gt;
-&lt;input type=&quot;text&quot; value=&quot;default value&quot; /&gt;
-&lt;/label&gt;
-&lt;label&gt;
-&lt;b&gt;Email input&lt;/b&gt;
-&lt;input type=&quot;email&quot; /&gt;
-&lt;/label&gt;
-&lt;label&gt;
-&lt;b&gt;Search input&lt;/b&gt;
-&lt;input type=&quot;search&quot; /&gt;
-&lt;/label&gt;
-&lt;label&gt;
-&lt;b&gt;Tel input&lt;/b&gt;
-&lt;input type=&quot;tel&quot; /&gt;
-&lt;/label&gt;
-&lt;label&gt;
-&lt;b&gt;URL input&lt;/b&gt;
-&lt;input type=&quot;url&quot; placeholder=&quot;http://&quot; /&gt;
-&lt;/label&gt;
-&lt;label&gt;
-&lt;b&gt;Password input&lt;/b&gt;
-&lt;input type=&quot;text&quot; value=&quot;password&quot; /&gt;
-&lt;/label&gt;
-&lt;label&gt;
-&lt;b&gt;Radio input&lt;/b&gt;
-&lt;input type=&quot;radio&quot; name=&quot;rad&quot; /&gt;
-&lt;/label&gt;
-&lt;label&gt;
-&lt;b&gt;Checkbox input&lt;/b&gt;
-&lt;input type=&quot;checkbox&quot; /&gt;
-&lt;/label&gt;
-&lt;label&gt;
-&lt;input type=&quot;radio&quot; name=&quot;rad&quot; /&gt; Radio input
-&lt;/label&gt;
-&lt;label&gt;
-&lt;input type=&quot;checkbox&quot; /&gt; Checkbox input
-&lt;/label&gt;
-&lt;label&gt;
-&lt;b&gt;Select field&lt;/b&gt;
-&lt;select&gt;
-&lt;option&gt;Option 01&lt;/option&gt;
-&lt;option&gt;Option 02&lt;/option&gt;
-&lt;/select&gt;
-&lt;/label&gt;
-&lt;label&gt;
-&lt;b&gt;Textarea&lt;/b&gt;&lt;/label&gt;&lt;/p&gt;
-    &lt;textarea cols=&quot;30&quot; rows=&quot;5&quot;&gt;Textarea text&lt;/textarea&gt;
-    &lt;p&gt;&amp;lt;/label&amp;gt;&lt;/p&gt;
-  &lt;/fieldset&gt;
-&lt;/form&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;embeds&quot;&gt;Embeds&lt;/h2&gt;
-
-&lt;p&gt;Sometimes all you want to do is embed a little love from another location and set your post alive.&lt;/p&gt;
-
 &lt;h3 id=&quot;video&quot;&gt;Video&lt;/h3&gt;
 
 &lt;p&gt;Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.&lt;/p&gt;
@@ -374,6 +499,32 @@ import Foundation
 &lt;amp-img src=&quot;/hanuman/assets/images/shiva.jpg&quot; width=&quot;656&quot; height=&quot;400&quot; layout=&quot;responsive&quot; alt=&quot;&quot; class=&quot;mb3&quot;&gt;&lt;/amp-img&gt;
 
 &lt;p&gt;Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;image-with-heading&quot;&gt;Image With Heading&lt;/h3&gt;
+&lt;figure class=&quot;ampstart-image-with-heading  m0 relative mb4&quot;&gt;
+  &lt;amp-img src=&quot;/hanuman/assets/images/shiva.jpg&quot; width=&quot;656&quot; height=&quot;400&quot; layout=&quot;responsive&quot; alt=&quot;&quot; class=&quot;mb3&quot;&gt;&lt;/amp-img&gt;
+  &lt;figcaption class=&quot;absolute right-0 bottom-0 left-0&quot;&gt;
+    &lt;header class=&quot;ampstart-image-heading px2 py2 line-height-4&quot;&gt;
+      &lt;h1&gt;Shiva&lt;/h1&gt;
+    &lt;/header&gt;
+  &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;image-with-caption&quot;&gt;Image With Caption&lt;/h3&gt;
+&lt;figure class=&quot;ampstart-image-with-caption m0 relative mb4&quot;&gt;
+  &lt;amp-img src=&quot;/hanuman/assets/images/shiva.jpg&quot; width=&quot;656&quot; height=&quot;400&quot; layout=&quot;responsive&quot; alt=&quot;&quot; class=&quot;mb3&quot;&gt;&lt;/amp-img&gt;
+  &lt;figcaption class=&quot;h5 mt1 px3&quot;&gt;
+    &lt;p&gt;Duis nec dolor et quam vulputate sagittis. Nam arcu ex, suscipit nec cursus a, volutpat sit amet felis.
+&lt;span class=&quot;ampstart-image-credit block bold&quot;&gt;
+Taken by 
+&lt;a href=&quot;#&quot; role=&quot;author&quot;&gt;Parvati&lt;/a&gt;
+&lt;/span&gt;&lt;/p&gt;
+  &lt;/figcaption&gt;
+&lt;/figure&gt;
 
 &lt;hr /&gt;
 
