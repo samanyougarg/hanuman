@@ -104,7 +104,7 @@ AMP has a limitation that you can only use inline css.
 All the CSS for this theme is in the styles.scss file in the includes directory.
 
 #### Changing the Default Color
-In the styles.scss file in the includes directory, you can change the hex value to the color you would like your site to use.
+In the styles.scss file in the includes directory, you can change the hex value of $theme-color to the color you would like your site to use.
 
 ### Author Information
 Author information is present in the author.yml file in the _data folder. You can update the fields of that file as per your requirements.
