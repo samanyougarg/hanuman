@@ -57,6 +57,8 @@ Or install it yourself as:
 
     $ gem install hanuman
 
+You'll also need to copy or create the _config.yml file just like in this repository. Similarly, you'll need to have a navigation.yml and author.yml in your _data directory.
+
 ### 3. Jekyll Remote Theme
 1. Create or update your Gemfile with the following - 
 
