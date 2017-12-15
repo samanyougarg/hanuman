@@ -25,6 +25,9 @@ It is built using the open source [AMP Start framework](https://www.ampstart.com
 - Github Pages support
 - Easily Customisable
 
+## What is AMP
+
+AMP stands for [Accelerated Mobile Pages](https://www.ampproject.org/), a Google-backed project designed as an open standard for any publisher to have pages load quickly on mobile devices.
 
 ## Installation
 
