@@ -2,13 +2,13 @@
 
 [![Build Status](https://travis-ci.org/samanyougarg/hanuman.svg?branch=master)](https://travis-ci.org/samanyougarg/hanuman)
 
-Hanuman is a minimal yet powerful Jekyll theme for your blogs and websites.
+multitab is a minimal yet powerful Jekyll theme for your blogs and websites.
 
 It is built using the open source AMP Start framework and can be customized as per your requirements.
 
 ## Live Demo
 ## [Hanuman](https://samanyougarg.com/hanuman)
-![Hanuman](/Screenshots/hanuman.jpg "Hanuman Preview")
+![Hanuman](https://www.google.co.kr/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=0ahUKEwi1nu-82YvYAhWBLpQKHegHDf4QjRwIBw&url=http%3A%2F%2Fblog.koreadaily.com%2Fckrhee1010%2F860009&psig=AOvVaw0qhyYnAW4psJVhm-cJzsSU&ust=1513416369205352 "Hanuman Preview")
 
 
 ## Features
