@@ -6,6 +6,8 @@ Hanuman is a minimal yet powerful Jekyll theme for your blogs and websites.
 
 It is built using the open source [AMP Start framework](https://www.ampstart.com/) and can be customized as per your requirements.
 
+<a href="https://www.buymeacoffee.com/samanyougarg"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: 41px !important;width: 174px !important;box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;" target="_blank"></a>
+
 ## Live Demo
 ## [Hanuman](https://samanyougarg.com/hanuman)
 ![Hanuman](/Screenshots/hanuman.jpg "Hanuman Preview")
