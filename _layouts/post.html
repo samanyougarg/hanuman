@@ -35,9 +35,9 @@ layout: default
             in
             {% for tag in page.tags %}
                 {% if forloop.index == page.tags.size %}
-                   <a href=''>{{ tag | capitalize }}</a>
+                   <a href='{{site.baseurl}}tags/#{{tag}}'>{{ tag | capitalize }}</a>
                 {% else %}
-                   <a href=''>{{ tag | capitalize }}</a>,
+                   <a href='{{site.baseurl}}tags/#{{tag}}'>{{ tag | capitalize }}</a>,
                 {% endif %}
             {% endfor %}
         {% endif %}
@@ -61,9 +61,9 @@ layout: default
           <span class="ampstart-subtitle block px3 pt2 mb2">
                         {% for tag in page.tags %}
                             {% if forloop.index == page.tags.size %}
-                               {{ tag | upcase }}
+                               <a href='{{site.baseurl}}tags/#{{tag}}'>{{ tag | capitalize }}</a>
                             {% else %}
-                               {{ tag | upcase }},
+                               <a href='{{site.baseurl}}tags/#{{tag}}'>{{ tag | capitalize }}</a>,
                             {% endif %}
                         {% endfor %}
           </span>

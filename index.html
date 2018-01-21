@@ -52,9 +52,9 @@ layout: default
                 in
                 {% for tag in post.tags %}
                     {% if forloop.index == post.tags.size %}
-                       <a href=''>{{ tag | capitalize }}</a>
+                       <a href='{{site.baseurl}}tags/#{{tag}}'>{{ tag | capitalize }}</a>
                     {% else %}
-                       <a href=''>{{ tag | capitalize }}</a>,
+                       <a href='{{site.baseurl}}tags/#{{tag}}'>{{ tag | capitalize }}</a>,
                     {% endif %}
                 {% endfor %}
             {% endif %}
