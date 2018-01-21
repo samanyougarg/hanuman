@@ -46,7 +46,7 @@ layout: default
           <div class="post-meta">
 
                 {% if site.data.author["author"]["assets"] %}<amp-img width="24" height="24" class="author-thumb" layout="responsive" src="{{ site.baseurl }}{{site.data.author["author"]["assets"]}}" alt="Author image"/></amp-img>{% endif %}
-                <a href=''>{{site.data.author["author"]["name"]}}</a>
+                {{site.data.author["author"]["name"]}}
 
             {% if post.tags.size > 0 %}
                 in
