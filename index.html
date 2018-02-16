@@ -44,9 +44,12 @@ layout: default
             <p class="post-description">{{ post.excerpt | strip_html | truncatewords: 50 }}</p>
           </section>
           <div class="post-meta">
-
-                {% if site.data.author["author"]["assets"] %}<amp-img width="24" height="24" class="author-thumb" layout="responsive" src="{{ site.baseurl }}{{site.data.author["author"]["assets"]}}" alt="Author image"/></amp-img>{% endif %}
-                {{site.data.author["author"]["name"]}}
+            {% for author in site.data.author %}
+              {% if author[1].username == post.author %}
+                {% if author[1].assets %}<amp-img width="24" height="24" class="author-thumb" layout="responsive" src="{{ site.baseurl }}{{author[1].assets}}" alt="{{author[1].name}}"/></amp-img>{% endif %}
+                {{author[1].name}}
+              {% endif %}
+            {% endfor %}
 
             {% if post.tags.size > 0 %}
                 in
