@@ -136,7 +136,7 @@ layout: default
         {% if author[1].assets %}
             <amp-img width="100" height="100" class="author-thumb-post" layout="responsive" src="{{ site.baseurl }}{{author[1].assets}}" alt="{{author[1].name}}"/></amp-img>
         {% endif %}
-        <a href=""><h4 class="author-name">{{author[1].name}}</h4></a>
+        <a href="{{site.baseurl}}authors/#{{author[1].username}}"><h4 class="author-name">{{author[1].name}}</h4></a>
         <p class="mb4 px3">{{author[1].bio}}</p>
     </div>
   {% endif %}
