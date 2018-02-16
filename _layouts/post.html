@@ -130,13 +130,13 @@ layout: default
     <!-- End Related article -->
 <hr>
 
-{% for author in site.data.author %}
+{% for author in site.data.authors %}
   {% if author[1].username == page.author %}
     <div class="author-section mb4">
         {% if author[1].assets %}
             <amp-img width="100" height="100" class="author-thumb-post" layout="responsive" src="{{ site.baseurl }}{{author[1].assets}}" alt="{{author[1].name}}"/></amp-img>
         {% endif %}
-        <h4 class="author-name">{{author[1].name}}</h4>
+        <a href=""><h4 class="author-name">{{author[1].name}}</h4></a>
         <p class="mb4 px3">{{author[1].bio}}</p>
     </div>
   {% endif %}
