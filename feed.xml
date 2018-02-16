@@ -5,8 +5,8 @@
     <description>Hanuman is a minimal yet powerful Jekyll theme for your blogs and websites.</description>
     <link>https://samanyougarg.com/hanuman//</link>
     <atom:link href="https://samanyougarg.com/hanuman//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 16 Feb 2018 09:02:19 +0000</pubDate>
-    <lastBuildDate>Fri, 16 Feb 2018 09:02:19 +0000</lastBuildDate>
+    <pubDate>Fri, 16 Feb 2018 12:57:41 +0000</pubDate>
+    <lastBuildDate>Fri, 16 Feb 2018 12:57:41 +0000</lastBuildDate>
     <generator>Jekyll v3.6.2</generator>
     
       <item>
@@ -197,7 +197,7 @@ SUBMIT
     &lt;label for=&quot;ip13&quot; class=&quot;absolute top-0 right-0 bottom-0 left-0&quot; aria-hidden=&quot;true&quot;&gt;Write your story&lt;/label&gt;
   &lt;/div&gt;
 &lt;/div&gt;
-    
+
 &lt;div class=&quot;flex flex-column items-center&quot;&gt;
   &lt;label class=&quot;www-example-label bold mb3&quot;&gt;Disabled Textarea&lt;/label&gt;
   &lt;div class=&quot;ampstart-input inline-block relative m0 p0 mb3 &quot;&gt;
@@ -475,7 +475,7 @@ proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&g
   &lt;figcaption class=&quot;h5 mt1 px3&quot;&gt;
     &lt;p&gt;Duis nec dolor et quam vulputate sagittis. Nam arcu ex, suscipit nec cursus a, volutpat sit amet felis.
 &lt;span class=&quot;ampstart-image-credit block bold&quot;&gt;
-Taken by 
+Taken by
 &lt;a href=&quot;#&quot; role=&quot;author&quot;&gt;Parvati&lt;/a&gt;
 &lt;/span&gt;&lt;/p&gt;
   &lt;/figcaption&gt;
