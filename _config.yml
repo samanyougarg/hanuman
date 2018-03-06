@@ -9,9 +9,9 @@ url: "https://nol.ski" # the base hostname & protocol for your site
 paginate:	5 # The number of posts to show per page on your homepage
 
 # Social
-facebook: facebook
-twitter: twitter
-github:  github
+facebook: sxltnolan
+twitter: __nolski__
+github: nolski
 
 #Additional Pages
 about: about
