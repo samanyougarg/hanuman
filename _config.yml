@@ -1,22 +1,16 @@
 # Site settings
-title: Hanuman
-description: Hanuman is a minimal yet powerful Jekyll theme for your blogs and websites.
+title: Tech Debt
+description: >-
+  Lessons and stories from my ever continuing journey through the Software Engineering Lifecyle.
+baseurl: "/" # the subpath of your site, e.g. /blog/ or / for root
 cover: assets/images/radhakrishna.jpg
 logo: assets/images/logo.png
 favicon: assets/images/favicon.png
-baseurl: "/hanuman/" # the subpath of your site, e.g. /blog/ or / for root
 url: "https://samanyougarg.com" # the base hostname & protocol for your site
 paginate:	5 # The number of posts to show per page on your homepage
 
-# Social
-facebook: facebook
-twitter: twitter
-github:  github
-
 #Additional Pages
 about: about
-contact: contact
-privacy-policy: privacy-policy
 
 
 permalink: /:title
