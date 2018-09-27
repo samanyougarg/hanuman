@@ -5,7 +5,7 @@ cover: assets/images/river.svg
 logo: assets/images/logo.png
 favicon: assets/images/favicon.png
 baseurl: "/" # the subpath of your site, e.g. /blog/ or / for root
-url: "https://efml.github.io/efml/" # the base hostname & protocol for your site
+url: "https://efml.github.io/efml-live/" # the base hostname & protocol for your site
 paginate: 5 #The number of posts to show per page on your homepage
 
 # Social
@@ -43,8 +43,8 @@ repo: efml #github repository
 branch: master #branch
 relative_source: ../efml/ #source directory
 destination: ../efml-pages/ #destination directory
-production_url:  https://efml.github.io/efml/
-source_url:  https://github.com/efml/efml/ #source repository url
+production_url:  https://efml.github.io/efml-live/
+source_url:  https://github.com/efml/efml-live #source repository url
 
 exclude:
   - README.md
