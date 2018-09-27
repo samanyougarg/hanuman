@@ -1,7 +1,7 @@
 # Site settings
 title: Evironmental Fluid Mechanics Lab UKZN
 description: Passionate about all things fluids.
-cover: assets/images/river.svg
+cover: assets/images/river.jpg
 logo: assets/images/logo.png
 favicon: assets/images/favicon.png
 baseurl:   "https://efml.github.io/efml-live/" # the subpath of your site, e.g. /blog/ or / for root
