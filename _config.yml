@@ -44,7 +44,7 @@ branch: master #branch
 relative_source: ../efml/ #source directory
 destination: ../efml-pages/ #destination directory
 production_url:   https://efml.github.io/efml-live/
-source_url:   https://github.com/efml/efml-live/ #source repository url
+source_url:   https://github.com/efml/ #source repository url
 
 exclude:
   - README.md
