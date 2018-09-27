@@ -4,7 +4,7 @@ description: Passionate about all things fluids.
 cover: assets/images/river.svg
 logo: assets/images/logo.png
 favicon: assets/images/favicon.png
-baseurl:   "https://efml.github.io/efml-live/ " # the subpath of your site, e.g. /blog/ or / for root
+baseurl:   "https://efml.github.io/efml-live/" # the subpath of your site, e.g. /blog/ or / for root
 url: "https://efml.github.io" # the base hostname & protocol for your site
 paginate: 5 #The number of posts to show per page on your homepage
 
@@ -43,8 +43,8 @@ repo: efml #github repository
 branch: master #branch
 relative_source: ../efml/ #source directory
 destination: ../efml-pages/ #destination directory
-production_url:  # https://efml.github.io/efml-live/
-source_url:  # https://github.com/efml/efml-live/ #source repository url
+production_url:   https://efml.github.io/efml-live/
+source_url:   https://github.com/efml/efml-live/ #source repository url
 
 exclude:
   - README.md
