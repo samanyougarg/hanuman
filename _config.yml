@@ -1,10 +1,10 @@
 # Site settings
 title: Evironmental Fluid Mechanics Lab UKZN
 description: Passionate about all things fluids.
-cover: assets/images/radhakrishna.jpg
+cover: assets/images/river.svg
 logo: assets/images/logo.png
 favicon: assets/images/favicon.png
-baseurl: "/efml/" # the subpath of your site, e.g. /blog/ or / for root
+baseurl: "/" # the subpath of your site, e.g. /blog/ or / for root
 url: "https://efml.github.io/efml/" # the base hostname & protocol for your site
 paginate: 5 #The number of posts to show per page on your homepage
 
