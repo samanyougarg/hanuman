@@ -25,7 +25,7 @@ to chlamydomonas resources.
 
 *How it grows?*
 
-Chlamydomonas reinhardtti can grow in both in the presence and absence of light. However, in the absence of light it requires a supply of organic carbon to grow.
+Chlamydomonas reinhardtti can grow both in the presence and absence of light. However, in the absence of light it requires a supply of organic carbon to grow.
 
 
 *Its commercial use?*
