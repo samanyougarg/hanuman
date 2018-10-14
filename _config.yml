@@ -38,13 +38,13 @@ plugins:
 # Settings for rake task
 safe: False
 lsi: False
-username:  EFML #github username
-repo: efml #github repository
+username: EFML #github username
+repo: efml-live #github repository
 branch: master #branch
-relative_source: ../efml/ #source directory
+relative_source: ../efml-live/ #source directory
 destination: ../efml-pages/ #destination directory
 production_url:   https://efml.github.io/efml-live/
-source_url:   https://github.com/efml/ #source repository url
+source_url:   https://github.com/EFML/efml-live/ #source repository url
 
 exclude:
   - README.md
