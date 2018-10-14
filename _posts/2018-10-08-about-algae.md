@@ -23,12 +23,12 @@ to chlamydomonas resources.
 
 *Structure of Chlamydomonas reinhardtti?*
 
-<img src = "../assets/images/algae.png" alt = "" style="width: 49%;">
+<img src = "assets/images/algae.png" alt = "" style="width: 49%;">
 
 *How it looks like?*
 
-<img src = "../assets/images/algae green.jpg" alt = "" style="width: 49%;">
-<img src = "../assets/images/algae group.jpg" alt = "" style="width: 43.5%;">
+<img src = "assets/images/algae green.jpg" alt = "" style="width: 49%;">
+<img src = "assets/images/algae group.jpg" alt = "" style="width: 43.5%;">
 
 *How it grows?*
 
