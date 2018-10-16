@@ -699,16 +699,19 @@ blockquote {
 
 .title {
     background: none;
-    font-size: 3rem;
+    font-size: 2rem;
     line-height: 1.2em;
 }
 
 body > figure > figcaption > header > h2 {
     text-align: center;
 }
+body > figure > figcaption > header > h1 {
+  text-align: center;
+}
 
 .description {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     text-shadow: 0 2px 1px rgba(0, 0, 0, 0.67);
     background: none;
 }
