@@ -42,11 +42,16 @@ main {
   display: block;
 }
 
+iframe{
+  width:100vw;
+  padding:0.5em;
+}
 body {
   background-color: #fff;
   font-family: $font-sans;
   margin: 0;
   padding: 0;
+  width: 100vw;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-font-feature-settings: "liga=1, dlig=1";
@@ -132,7 +137,7 @@ body {
       font-weight: 700;
       font-style: normal;
       display: block;
-      font-size: 30px;
+      font-size: 2rem;
       line-height: 1.15;
       margin-bottom: 10px;
       a {
