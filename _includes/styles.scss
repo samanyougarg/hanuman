@@ -43,15 +43,20 @@ main {
 }
 
 iframe{
-  width:100vw;
-  padding:0.5em;
+  @media screen and (max-width:640px){
+    width:100vw;
+    padding:2em;
+  }
+  width: 640px;
+  height: 300px
+  
 }
 body {
   background-color: #fff;
   font-family: $font-sans;
   margin: 0;
   padding: 0;
-  width: 100vw;
+  
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-font-feature-settings: "liga=1, dlig=1";
