@@ -1,6 +1,6 @@
 ---
 layout: post
-cover: 'assets/videos/al_sml.m4v'
+cover: 'assets/videos/al_sml_.m4v'
 title: Nature Inspiration
 date: 2018-10-17 08:00
 tags: THE.EARTH.LIVE
