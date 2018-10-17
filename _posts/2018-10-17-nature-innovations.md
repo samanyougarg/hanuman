@@ -1,6 +1,6 @@
 ---
 layout: post
-cover: 'assets/images/tree.jpg'
+cover: 'assets/videos/algae_sml.mp4'
 title: Nature Inspiration
 date: 2018-10-17 08:00
 tags: THE.EARTH.LIVE
