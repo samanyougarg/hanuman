@@ -1,5 +1,8 @@
-@media only screen and (max-device-width: 480px){
-    figcaption {
-        width: 100%;
+
+// https://www.sitepoint.com/community/t/make-flexbox-figure-content-shrink-proportionally/289761/2
+
+@media only screen and (max-width: 320px){
+    h1 {
+        font-size: 3em;
     }
 }

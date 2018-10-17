@@ -5,7 +5,7 @@ cover: assets/images/river.jpg
 logo: assets/images/favicon.png
 favicon: assets/images/favicon.png
 baseurl:   "" # the subpath of your site, e.g. /blog/ or / for root
-url: "https://efml.github.io/efml-live" # the base hostname & protocol for your site
+url: "https://efml.github.io/efml-live/" # the base hostname & protocol for your site
 paginate: 5 #The number of posts to show per page on your homepage
 
 # Social
