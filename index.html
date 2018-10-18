@@ -2,7 +2,7 @@
 layout: default
 ---
 
-  {% if site.type == "video" %}
+  {% if site.test == "video" %}
   <figure class="ampstart-image-fullpage-hero m0 relative mb4">
     <amp-video width="404" height="720" alt="Cover" layout="responsive" media="(max-width: 415px)"     
   layout="responsive"
@@ -16,6 +16,7 @@ layout: default
     <source type="video/mp4"
     src="{{ site.baseurl }}{{ site.cover }}{.mp4}">
   </amp-video>
+
     <figcaption class="absolute top-0 right-0 bottom-0 left-0">
       <header class="p3">
         <h2 class="ampstart-fullpage-hero-heading mb0 hanuman">
@@ -70,7 +71,7 @@ layout: default
   </figure>
  {% endif %}
 <main id="content" role="main" class="content">
-
+ 
   <div class="cf frame">
     {% for post in paginator.posts %}
       <article class="post" itemscope itemtype="http://schema.org/BlogPosting" role="article">
