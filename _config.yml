@@ -1,7 +1,7 @@
 # Site settings
 title: Evironmental Fluid Mechanics Lab UKZN
 description: Passionate about all things fluids.
-cover:   #assets/images/river.jpg
+cover:   assets/images/river.jpg
 type: "video"
 logo: assets/images/favicon.png
 favicon: assets/images/favicon.png
