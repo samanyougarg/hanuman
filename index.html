@@ -2,46 +2,8 @@
 layout: default
 ---
 
-  {% if site.test == "video" %}
-  <figure class="ampstart-image-fullpage-hero m0 relative mb4">
-    <amp-video width="404" height="720" alt="Cover" layout="responsive" media="(max-width: 415px)"     
-  layout="responsive"
-  controls
-  autoplay>
-  <div fallback>
-    <p>Your browser doesn't support HTML5 video.</p>
-  </div>
-  <source type="video/webm"
-    src="{{ site.baseurl }}{{ site.cover }}{.webm}">
-    <source type="video/mp4"
-    src="{{ site.baseurl }}{{ site.cover }}{.mp4}">
-  </amp-video>
 
-    <figcaption class="absolute top-0 right-0 bottom-0 left-0">
-      <header class="p3">
-        <h2 class="ampstart-fullpage-hero-heading mb0 hanuman">
-          <span class="ampstart-fullpage-hero-heading-text title">
-            {{ site.title }}
-          </span>
-        </h2>
-        <h2 class="ampstart-fullpage-hero-heading mb0">
-          <span class="ampstart-fullpage-hero-heading-text description">
-            {{ site.description }}
-          </span>
-        </h2>
-    </header>
-    {% if site.cover %}
-    <footer class="absolute left-0 right-0 bottom-0">
-      <a class="ampstart-readmore py3 caps line-height-2 text-decoration-none center block h5" href="#content"><span class="ampstart-readmore-text px1">Read more</span></a>
-    </footer>
-    {% else %}
-    <footer class="absolute left-0 right-0 bottom-0">
-      <a class="ampstart-read py3 caps line-height-2 text-decoration-none center block h5" href="#content"><span class="ampstart-readmore-text px1">Read more</span></a>
-    </footer>
-    {% endif %}
-    </figcaption>
-  </figure>
-  {% else %}
+ 
   <figure class="ampstart-image-fullpage-hero m0 relative mb4">
     <amp-img width="404" height="720" alt="Cover" layout="responsive" src="{{ site.baseurl }}{{ site.cover }}" media="(max-width: 415px)"></amp-img>
     <amp-img height="720" alt="Cover" layout="fixed-height" src="{{ site.baseurl }}{{ site.cover }}" media="(min-width: 416px)"></amp-img>
@@ -69,7 +31,7 @@ layout: default
     {% endif %}
     </figcaption>
   </figure>
- {% endif %}
+ 
 <main id="content" role="main" class="content">
  
   <div class="cf frame">

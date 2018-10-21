@@ -1,0 +1,41 @@
+    
+{% if page.type == "video" %}
+<figure class="ampstart-image-fullpage-hero m0 relative mb4">
+
+    <amp-video width="404" height="720" alt="Cover" layout="responsive" media="(max-width: 415px)"     
+    layout="responsive"
+    controls
+    autoplay>
+    <div fallback>
+      <p>Your browser doesn't support HTML5 video.</p>
+    </div>
+    {% assign webm = ".webm" %}
+    <source type="video/webm"        
+      src="{{ site.baseurl }}{{ site.cover }}{{webm}}">
+      {% assign mp4 = ".mp4" %}
+      <source type="video/mp4"
+      src="{{ site.baseurl }}{{ site.cover }}{{mp4}}">
+    </amp-video>
+
+
+  <figcaption class="absolute top-0 right-0 bottom-0 left-0">
+    <header class="p3">
+      <h1 class="ampstart-fullpage-hero-heading mb0 hanuman">
+        <span class="ampstart-fullpage-hero-heading-text title">
+         {{ page.title }}
+        </span>
+      </h1>
+      <h2 class="ampstart-fullpage-hero-heading mb0">
+       {% if page.author %}
+       <span class="ampstart-fullpage-hero-heading-text description">
+         By <b><a href="#" role="author" class="text-decoration-none author">{{page.author}}</a></b>
+        </span>
+        {% endif %}
+      </h2>
+    </header>
+    <footer class="absolute left-0 right-0 bottom-0">
+      <a class="ampstart-readmore py3 caps line-height-2 text-decoration-none center block h5" href="#content"><span class="ampstart-readmore-text px1">Read more</span></a>
+    </footer>
+  </figcaption>
+</figure>
+{% else %}

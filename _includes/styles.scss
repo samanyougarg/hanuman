@@ -42,10 +42,11 @@ main {
   display: block;
 }
 
-iframe{
+amp-youtube{
   @media screen and (max-width:640px){
-    width:100vw;
-    padding:2em;
+    width:90vw;
+    height:90vw;
+    
   }
   width: 640px;
   height: 300px
