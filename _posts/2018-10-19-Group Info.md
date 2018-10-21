@@ -12,18 +12,17 @@ author: Tadi and Dagi
 
 *Passionate about all things Environmental Fluid Mechanics*
 
-*Current research:*
-*Effects of climate change on regional wave climates.*
-*Flow and mixing in stratified fluids.*
-*Nearshore coastal morphology and hydrodynamics*
+*Current research:
+Effects of climate change on regional wave climates.
+Flow and mixing in stratified fluids.
+Nearshore coastal morphology and hydrodynamics*
 
 **[Dr Katrin Tirok](https://twitter.com/katrintirok)**
 
 *Aquatic Scientist, Data Analyst, Trainer & Educator*
 
-*Research on bio-physical processes in coastal systems, mathematical modelling of biosystems, algae dynamics.*
-
-*Passionate about all kinds of data and about data literacy and research skills training.*
+*Research on bio-physical processes in coastal systems, algae dynamics.
+Passionate about all kinds of data and about data literacy and research skills training.*
 
 # Project members
 **Nabeel Abdoola**
