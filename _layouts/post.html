@@ -3,22 +3,33 @@ layout: default
 ---
   {% if page.cover %}
   <figure class="ampstart-image-fullpage-hero m0 relative mb4">
-      {% if page.type and page.type == "video"%}
-      <amp-video  height="720" alt="Cover" layout="fixed-height" media="(min-width: 200px)"     
-    layout="responsive"
+      {% if page.type and page.type == "video"%}      
+      <amp-video  width="1200" height="720" alt="Cover" layout="responsive" media="(max-width: 401px)"    
     controls
     loop
     autoplay>
     <div fallback>
       <p>Your browser doesn't support HTML5 video.</p>
-    </div>
-    
+    </div>    
     <source type="video/webm"        
       src="{{ site.baseurl }}{{ page.cover }}.webm">
       
       <source type="video/mp4"
       src="{{ site.baseurl }}{{ page.cover }}.mp4">
     </amp-video>
+    <amp-video  height="720" alt="Cover" layout="fixed-height" media="(min-width: 400px)"    
+    controls
+    loop
+    autoplay>
+    <div fallback>
+      <p>Your browser doesn't support HTML5 video.</p>
+    </div>    
+    <source type="video/webm"        
+      src="{{ site.baseurl }}{{ page.cover }}.webm">
+      
+      <source type="video/mp4"
+      src="{{ site.baseurl }}{{ page.cover }}.mp4">
+    </amp-video>      
       {% else %}
     <amp-img width="404" height="720" alt="{{ page.title }}" layout="responsive" src="{{ site.baseurl }}{{ page.cover }}" media="(max-width: 415px)"></amp-img>
     <amp-img height="720" alt="{{ page.title }}" layout="fixed-height" src="{{ site.baseurl }}{{ page.cover }}" media="(min-width: 416px)"></amp-img>

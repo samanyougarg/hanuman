@@ -67,6 +67,7 @@ body {
   font-feature-settings: "liga", "dlig";
 }
 
+
 .site-header {
   position: relative;
   width: 100%;
@@ -237,10 +238,11 @@ body {
     font-family: $font-sans;
   }
   .post-title {
-    font-weight: 700;
+    font-size: 2rem;
+    line-height: 1.2em;
     font-style: normal;
     letter-spacing: -0.04em;
-    font-size: 50px;
+    //font-size: 50px;
     line-height: 1.1;
     color: #333332;
     margin-bottom: 50px;
