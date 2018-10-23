@@ -18,10 +18,7 @@ katrin:
   bio: Aquatic Scientist. Data Analyst. Trainer and Educator.
   assets: assets/images/katrin.png
 
-tadi:
-  username: tadi
-  name: Tadi
-
-dagi:
-  username: dagi
-  name: Dagi
+tadi and dagi:
+  username: tadi and dagi
+  name: Tadi and Dagi
+  bio: MSc students at UKZN
