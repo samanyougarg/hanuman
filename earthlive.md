@@ -35,6 +35,4 @@ __THE.EARTH.LIVE is a project by students and staff from Civil Engineering at UK
 
 [Algae growth media]({{site.url}}/growth-media)
 
-[Innovations]({{site.url}}/innovations)
-
-[Research in Environmental Fluids Lab]({{site.url}}/our-research)
+[Algae Innovations]({{site.url}}/innovations)
