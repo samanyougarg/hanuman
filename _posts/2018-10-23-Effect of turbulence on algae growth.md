@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Effect of turbulence on algae growth
-date: 2018-10-23 17:18:00
+date: 2018-10-19 17:18:00
 tags: THE.EARTH.LIVE
 author: Tadi, Dagi
 ---
