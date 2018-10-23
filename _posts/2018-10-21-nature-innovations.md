@@ -3,7 +3,7 @@ layout: post
 cover: 'assets/videos/al_sml_'
 title: The Nature Of Things
 type: 'video'
-date: 2018-10-17 08:00
+date: 2018-10-21 08:00
 tags: THE.EARTH.LIVE
 author: justin
 ---
