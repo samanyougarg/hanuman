@@ -38,6 +38,7 @@ is focused on trapping of sediments in standard stormwater sump.*
 **Nontebeko Buthelezi**
 
 *BSc student in Civil Engineering at the University of KwaZulu-Natal.*
+My research is on using an existing coastal water quality model to explore pollution scenarios on the Durban Bight.
 
 **[Atish Deoraj](https://twitter.com/atishdeoraj08)**
 
@@ -66,6 +67,7 @@ is on the use of artificial groynes to develop surfing parks for tourism.*
 **Stephen Moore**
 
 *BSc student in Civil Engineering at the University of KwaZulu-Natal.*
+My research focuses on the efficiency of hydro-kites in the Agulhas Current to produce renewable energy.
 
 **Kelan Naidoo**
 

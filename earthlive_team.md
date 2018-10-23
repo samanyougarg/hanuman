@@ -21,7 +21,7 @@ Passionate about all kinds of data and about data literacy and research skills t
 
 <small>
 **Nabeel Abdoola**
-*BSc student in Civil Engineering at the University of KwaZulu-Natal.*
+*BSc student in Civil Engineering at the University of KwaZulu-Natal.*/
 </small>
 
 <small>
@@ -33,7 +33,7 @@ is focused on trapping of sediments in standard stormwater sump.
 
 <small>
 **Nontebeko Buthelezi**
-*BSc student in Civil Engineering at the University of KwaZulu-Natal.*
+*BSc student in Civil Engineering at the University of KwaZulu-Natal.*/ My research is on using an existing coastal water quality model to explore pollution scenarios on the Durban Bight.
 </small>
 
 <small>
@@ -66,7 +66,7 @@ is on the use of artificial groynes to develop surfing parks for tourism.
 
 <small>
 **Stephen Moore**
-*BSc student in Civil Engineering at the University of KwaZulu-Natal.*
+*BSc student in Civil Engineering at the University of KwaZulu-Natal.*/ My research focuses on the efficiency of hydro-kites in the Agulhas Current to produce renewable energy.
 </small>
 
 <small>
