@@ -4,7 +4,7 @@ cover:
 title: Algae in THE.EARTH.LIVE
 date: 2018-10-08 00:00:00
 tags: THE.EARTH.LIVE
-author: tadi
+author: tadi and dagi
 ---
 
 <!--# About algae-->

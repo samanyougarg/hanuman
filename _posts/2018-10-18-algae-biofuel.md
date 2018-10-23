@@ -3,7 +3,7 @@ layout: post
 title: Algae Biofuels
 date: 2018-10-18 15:18:00
 tags: THE.EARTH.LIVE
-author: Tadi; Dagi
+author: tadi and dagi
 ---
 
 It is predicted that in the future, production of diesel and gasoline could be
