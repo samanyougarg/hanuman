@@ -31,7 +31,7 @@ __How it looks like?__
 <img src = "assets/images/algae green.jpg" alt = "" style="width: 49%;">
 <img src = "assets/images/algae group.jpg" alt = "" style="width: 43.5%;">
 -->
-<img src - "assets/images/ChlamyLab100x.jpg" alt = "" style="width: 66%;">
+<img src = "assets/images/ChlamyLab100x.jpg" alt = "" style="width: 66%;">
 
 __How it grows?__
 
