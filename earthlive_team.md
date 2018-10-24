@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Project Team
+cover: 'assets/images/earthlive-team.jpg'
 ---
 
 <small>

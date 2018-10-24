@@ -23,9 +23,9 @@ THE.EARTH.LIVE evolves around algae because [our lives depend on algae]({{site.u
 __THE.EARTH.LIVE is a project by students and staff from Civil Engineering at UKZN__ [(Our Team)]({{site.url}}/earthlive_team)
 
 ### Read more
-[Algae in THE.EARTH.LIVE]({{site.url}}/about-algae)
+[Why algae?]({{site.url}}/why-algae)
 
-[Our lives depend on algae]({{site.url}}/why-algae)
+[Algae in THE.EARTH.LIVE]({{site.url}}/about-algae)
 
 [Feeding algae with CO<sub>2</sub>]({{site.url}}/photosynthesis)
 
