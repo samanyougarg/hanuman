@@ -6,6 +6,9 @@ justin:
   url: justinpringle.com
   bio: Young. Passionate. Curious.
   assets: assets/images/justin.jpg
+  role: staff
+  github: justinpringle
+  twitter: justinpringle_
 
 katrin:
   username: katrin
@@ -17,8 +20,10 @@ katrin:
   twitter: katrintirok
   bio: Aquatic Scientist. Data Analyst. Trainer and Educator.
   assets: assets/images/katrin.png
+  role: staff
 
 tadi and dagi:
   username: tadi and dagi
   name: Tadi and Dagi
   bio: MSc students at UKZN
+  role: student
