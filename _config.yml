@@ -1,8 +1,8 @@
 # Site settings
-title: Hanuman
-description: Hanuman is a minimal yet powerful Jekyll theme for your blogs and websites.
+title: Team CraigZombie
+description: We are a team dedicated to bringing awful University of York themed games to life
 cover: assets/images/radhakrishna.jpg
-logo: assets/images/logo.png
+logo: assets/images/logo.jpg
 favicon: assets/images/favicon.png
 baseurl: "/" # the subpath of your site, e.g. /blog/ or / for root
 url: "https://teamcraigzombie.github.io" # the base hostname & protocol for your site

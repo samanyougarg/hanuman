@@ -14,3 +14,11 @@ krishna:
   url: shriradhakrishna.com
   bio: Radhe! Radhe!
   assets: assets/images/favicon.png
+Isaac:
+    username: Isaac
+    name: Isaac Lowe
+    location: York
+    url_full: https://www.youtube.com/watch?v=qb_hqexKkw8
+    url: isaaclowe.net
+    bio: A person who has been known to do things on the internet.
+    assets: assets/images/IsaacLowe.jpg
