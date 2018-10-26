@@ -1,7 +1,20 @@
+derek:
+  username: Derek
+  name: Derek
+  location: Durban
+  url_full: 
+  url: 
+  bio: Eventually all merges into one...and a river runs through it
+  assets: assets/images/Derek.jpg
+  role: staff
+  github: 
+  twitter: DerekDStretch
+  email: stretchd@ukzn.ac.za
+
 justin:
   username: justin
   name: Justin
-  location: Ayodhya
+  location: Durban
   url_full: https://justinpringle.com
   url: justinpringle.com
   bio: Young. Passionate. Curious.
@@ -9,6 +22,9 @@ justin:
   role: staff
   github: justinpringle
   twitter: justinpringle_
+  email: pringlej@ukzn.ac.za
+
+  
 
 katrin:
   username: katrin
@@ -21,6 +37,7 @@ katrin:
   bio: Aquatic Scientist. Data Analyst. Trainer and Educator.
   assets: assets/images/katrin.png
   role: staff
+  email: tirok@ukzn.ac.za
 
 tadi and dagi:
   username: tadi and dagi

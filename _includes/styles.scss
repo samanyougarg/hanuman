@@ -746,3 +746,14 @@ body > figure > figcaption > header > h1 {
 .ampstart-read-text{
     background:$theme-color
 }
+amp-social-share.rounded {
+  border-radius: 50%;
+  background-size: 60%;
+}
+
+amp-social-share.email {
+  border-radius: 50%;
+  background-size: 100%;
+  background-color:$theme-color;
+}
+

@@ -74,11 +74,11 @@ layout: default
       </div>
 
       <div class="mb4 px3 radhakrishna" align="left">
-		    <amp-social-share type="facebook" width="45" height="33" data-param-app_id="145393166088568"></amp-social-share>
-		    <amp-social-share type="twitter" width="45" height="33"></amp-social-share>
-		    <amp-social-share type="whatsapp" width="45" height="33"></amp-social-share>
-		    <amp-social-share type="gplus" width="45" height="33"></amp-social-share>
-		    <amp-social-share width="45" height="33" type="email"></amp-social-share>
+		    <amp-social-share class = "rounded" width="36" height="36" type="facebook" width="45" height="33" data-param-app_id="145393166088568"></amp-social-share>
+		    <amp-social-share class = "rounded" width="36" height="36" type="twitter" width="45" height="33"></amp-social-share>
+		    <amp-social-share class = "rounded" width="36" height="36" type="whatsapp" width="45" height="33"></amp-social-share>
+		    <amp-social-share class = "rounded" width="36" height="36" type="gplus" width="45" height="33"></amp-social-share>
+		    <amp-social-share class = "rounded" width="36" height="36" type="email"></amp-social-share>
 	    </div>
 
   {% else %}
@@ -90,9 +90,9 @@ layout: default
           <span class="ampstart-subtitle block px3 pt2 mb2">
                         {% for tag in page.tags %}
                             {% if forloop.index == page.tags.size %}
-                               <a href='{{site.baseurl}}tags/#{{tag}}'>{{ tag | capitalize }}</a>
+                               <a href='{{site.url}}tags/#{{tag}}'>{{ tag | capitalize }}</a>
                             {% else %}
-                               <a href='{{site.baseurl}}tags/#{{tag}}'>{{ tag | capitalize }}</a>,
+                               <a href='{{site.url}}tags/#{{tag}}'>{{ tag | capitalize }}</a>,
                             {% endif %}
                         {% endfor %}
           </span>
@@ -127,7 +127,7 @@ layout: default
               <h2 class="ampstart-heading ampstart-label m0 mb3">Related articles</h2>
                 <article class="ampstart-related-article">
                     {% if post.cover %}
-                    <amp-img src="{{ site.baseurl }}{{ post.cover }}" width="656" height="350" layout="responsive" alt="" class="mb3"></amp-img>
+                    <amp-img src="{{ site.eurl }}{{ post.cover }}" width="656" height="350" layout="responsive" alt="" class="mb3"></amp-img>
 
                       {% else %}
                         {% if site.cover %}
@@ -151,7 +151,7 @@ layout: default
                               {{ post.content | strip_html | truncatewords:15 }}
                             {% endif %}
                             </p>
-                            <a href="{{ site.baseurl }}{{ post.url | remove: '/' }}" class="ampstart-rekated-article-readmore block text-decoration-none ampstart-label">Read more</a>
+                            <a href="{{ site.url }}{{ post.url}}" class="ampstart-rekated-article-readmore block text-decoration-none ampstart-label">Read more</a>
                           {% endif %}
                         {% endif %}
                       {% endif %}
@@ -167,21 +167,26 @@ layout: default
   {% if author[1].username == page.author %}
     <div class="author-section mb4">
         {% if author[1].assets %}
-            <amp-img width="100" height="100" class="author-thumb-post" layout="responsive" src="{{ site.baseurl }}{{author[1].assets}}" alt="{{author[1].name}}"/></amp-img>
+            <amp-img width="100" height="100" class="author-thumb-post" layout="responsive" src="{{ site.url }}/{{author[1].assets}}" alt="{{author[1].name}}"/></amp-img>
         {% endif %}
-        <a href="{{site.baseurl}}authors/#{{author[1].username}}"><h4 class="author-name">{{author[1].name}}</h4></a>
+        <a href="{{site.url}}authors/#{{author[1].username}}"><h4 class="author-name">{{author[1].name}}</h4></a>
         <p class="mb4 px3">{{author[1].bio}}</p>
     </div>
   {% endif %}
 {% endfor %}
 
+
 <!-- Start Socialbox -->
-<div class="ampstart-social-box mb4">
-  <amp-social-share type="twitter" aria-label="Share this on Twitter"></amp-social-share>
-  <amp-social-share type="facebook" aria-label="Share this on Facebook" data-param-app_id="145393166088568"></amp-social-share>
-  <amp-social-share type="gplus" aria-label="Share this on Google Plus"></amp-social-share>
-  <amp-social-share type="email" aria-label="Share this with E-mail"></amp-social-share>
-</div>
+<!--<div class="ampstart-social-box rounded mb4">-->
+  <amp-social-share class = "rounded" width="36"
+  height="36" type="twitter" aria-label="Share this on Twitter"></amp-social-share>
+  <amp-social-share class = "rounded" width="36"
+  height="36" type="facebook" aria-label="Share this on Facebook" data-param-app_id="145393166088568"></amp-social-share>
+  <amp-social-share class = "rounded" width="36"
+  height="36" type="gplus" aria-label="Share this on Google Plus"></amp-social-share>
+  <amp-social-share class = "rounded" width="36"
+  height="36" type="email" aria-label="Share this with E-mail"></amp-social-share>
+<!--</div>-->
 <!-- End Socialbox -->
 
 
