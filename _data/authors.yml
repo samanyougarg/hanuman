@@ -17,12 +17,13 @@ sam:
   location: Durban
   url_full:
   url:
-  bio:
-  assets:
+  bio: Teacher. Numerical Modeller. Environmentalist.
+  assets: assets/images/sam.jpg
   role: staff
   github:
   twitter:
   email: kumarasamy@ukzn.ac.za
+  researchgate: Muthukrishnavellaisamy_Kumarasamy
 
 justin:
   username: justin

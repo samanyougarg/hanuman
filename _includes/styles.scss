@@ -80,7 +80,7 @@ body {
   background-color: #fff;
 }
 .about_content{
-  width: 1200px;
+  width: 100%;
   //max-width: 700px;
   margin: 25px auto 0 auto;
   @include box-sizing(border-box);
@@ -89,10 +89,11 @@ body {
 //}
 }
 .about_title {
-  margin-top: 25vh;
+  margin-top: 5vh;
   text-align: center;
   font-weight: 600;
   margin-bottom: 1rem;
+  font-size: 2em;
   //text-shadow: 0 2px 1px rgba(0, 0, 0, 0.67);
 }
 .bg-text {
@@ -106,14 +107,22 @@ body {
   //left: 50%;
   //transform: translate(-50%, -50%);
   //z-index: 2;
-  //width: 80%;
+  width: 100%;
   //padding: 20px;
   //text-align: center;
 }
 .about-staff-section {
-  margin-top: 2rem;
-  //margin-right: 2rem
+  margin-top: 20rem;
+  margin-bottom: 20rem;
+  text-align:center;
+  
 }
+.author-block{
+  max-width:500px;
+  display:inline-block;
+  margin-top: 2em;
+}
+
 .site-header {
   position: relative;
   width: 100%;
