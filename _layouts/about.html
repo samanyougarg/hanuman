@@ -1,18 +1,20 @@
 ---
 layout: default
 ---
-<main class="content" role="main">
-  <article class="post">
+<main class="about_content bg" role="main">
+   
+  <!--<article class="post">
     <div class="post-meta">
       <h1 class="post-title">{{ page.title }}</h1>
     </div>
-    <section class="post-content">
+    <section class="post-content bg">
       <a name="topofpage"></a>
-      {{content}}
+      {content}}
     </section>
-  </article>
+  </article>-->
 
-  <h2 class="ampstart-fullpage-hero-heading mb0 hanuman">Staff</h2>
+<div class=" about-staff-section mb4 bg-text">
+  <h2 class="ampstart-fullpage-hero-heading mb0 about_title">Staff</h2>
   {% for author in site.data.authors %}
   {% if author[1].role == 'staff' %}
   
@@ -24,7 +26,7 @@ layout: default
         <p class="mb4 px3">{{author[1].bio}}</p>
     </div>
     <!-- Start Socialbox -->
-    <div style="width:40%;height:30%;">
+    <div style="width:40%;height:30%; max-width:240px;">
     <ul class="ampstart-social-follow flex list-reset justify-around items center flex-wrap m0 mb4">
       {% if author[1].twitter %}
       <li>
@@ -67,12 +69,9 @@ layout: default
   </ul>
     </div>
   {% endif %}
+  {% endfor %}
 
-  
-
-{% endfor %}
-
-
+</div>
 </main>
 
 {% include footer.html %}
