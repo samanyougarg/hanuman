@@ -8,16 +8,18 @@ author: Isaac
 
 <h1 id="DocTop">Documents</h1>
 
-<p>Below are the downloadables for assessment 1 in .pdf format.</p>
+<p>Below are the deliverables for assessment 1 in .pdf format.</p>
 
-Architecture: [link][3] <br>
-Method Selection and Planning: [link][1] <br>
-Risk Assessment and Mitigation: [link][2] <br>
+Requirements: [Link][4] <br>
+Architecture: [Link][3] <br>
+Method Selection and Planning: [Link][1] <br>
+Risk Assessment and Mitigation: [Link][2] <br>
 
 
-[1]:{{site.url}}/assets/downloads/MethodSelectionAndPlanning.pdf
-[2]:{{site.url}}/assets/downloads/RiskAssessmentAndMitigation.pdf
-[3]:{{sute.url}}/assets/downloads/Architecture.pdf
+[1]:{{site.url}}/assets/downloads/Plan1.pdf
+[2]:{{site.url}}/assets/downloads/Risk1.pdf
+[3]:{{site.url}}/assets/downloads/Arch1.pdf
+[4]:{{site.url}}/assets/downloads/Req1.pdf
 <hr/>
 
 <h1 id="AdditionalMat">Additional Material</h1>
