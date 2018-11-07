@@ -14,8 +14,8 @@ Method Selection and Planning: [link][1] <br>
 Risk Assessment and Mitigation: [link][2] <br>
 Architecture: [link][3]
 
-[1]:{{site.url}}/assets/download/MethodSelectionAndPlanning.pdf
-[2]:{{site.url}}/assets/download/RiskAssessmentAndMitigation.pdf
+[1]:{{site.url}}/assets/downloads/MethodSelectionAndPlanning.pdf
+[2]:{{site.url}}/assets/downloads/RiskAssessmentAndMitigation.pdf
 [3]:{{sute.url}}/assets/downloads/Architecture.pdf
 <hr/>
 
