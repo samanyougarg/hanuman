@@ -10,9 +10,10 @@ author: Isaac
 
 <p>Below are the downloadables for assessment 1 in .pdf format.</p>
 
+Architecture: [link][3] <br>
 Method Selection and Planning: [link][1] <br>
 Risk Assessment and Mitigation: [link][2] <br>
-Architecture: [link][3]
+
 
 [1]:{{site.url}}/assets/downloads/MethodSelectionAndPlanning.pdf
 [2]:{{site.url}}/assets/downloads/RiskAssessmentAndMitigation.pdf
