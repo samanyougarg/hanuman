@@ -6,7 +6,16 @@ logo: assets/images/logo.png
 favicon: assets/images/favicon.png
 baseurl: "/hanuman/" # the subpath of your site, e.g. /blog/ or / for root
 url: "https://samanyougarg.com" # the base hostname & protocol for your site
-paginate:	5 # The number of posts to show per page on your homepage
+
+pagination:
+
+  # Site-wide kill switch, disabled here it doesn't run at all 
+  enabled: true
+
+  # Set to 'true' to enable pagination debugging. This can be enabled in the site config or only for individual pagination pages
+  debug: false
+
+  per_page: 5
 
 # Social
 facebook: facebook
@@ -32,7 +41,7 @@ kramdown:
   parse_block_html: true
 
 plugins:
-  - jekyll-paginate
+  - jekyll-paginate-v2
 
 
 # Settings for rake task
