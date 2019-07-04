@@ -6,6 +6,8 @@ Hanuman is a minimal yet powerful Jekyll theme for your blogs and websites.
 
 It is built using the open source [AMP Start framework](https://www.ampstart.com/) and can be customized as per your requirements.
 
+<a href="https://www.buymeacoffee.com/samanyougarg"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: 41px !important;width: 174px !important;box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;" target="_blank"></a>
+
 ## Live Demo
 ## [Hanuman](https://samanyougarg.com/hanuman)
 ![Hanuman](/Screenshots/hanuman.jpg "Hanuman Preview")
@@ -24,6 +26,8 @@ It is built using the open source [AMP Start framework](https://www.ampstart.com
 - Can be easily installed via "theme gem"
 - Github Pages support
 - Easily Customisable
+- Tags
+- Multiple Authors
 
 ## What is AMP
 
@@ -31,7 +35,7 @@ AMP stands for [Accelerated Mobile Pages](https://www.ampproject.org/), a Google
 
 ## Installation
 
-There are different ways to install the theme - 
+There are different ways to install the theme -
 
 ### 1. Cloning the repository and updating settings
 1. Fork this repository and clone the forked repository.
@@ -46,13 +50,13 @@ Push the contents of the destination folder (mentioned in _config.yml. eg - dest
 
 **Method 2**
 
-- Set up travis-ci for your fork. 
+- Set up travis-ci for your fork.
 - Generate your secure token with the travis gem:
   Run `gem install travis` on your terminal.
 - Grab the GH_TOKEN from https://github.com/settings/tokens
 - Then run `travis encrypt 'GIT_NAME="YOUR_USERNAME" GIT_EMAIL="YOUR_EMAIL" GH_TOKEN=YOUR_TOKEN'`
 - Add the token to your .travis.yml file.
-Now you just need to push the files. Travis will generate the HTML files and automatically push them to your gh-pages branch. 
+Now you just need to push the files. Travis will generate the HTML files and automatically push them to your gh-pages branch.
 This is the setup I am using.
 
 ### 2. Ruby Gem Method
@@ -83,7 +87,7 @@ Run `bundle exec jekyll serve` inside your cloned repository. Push the contents 
 
 
 ### 3. Jekyll Remote Theme
-1. Create or update your Gemfile with the following - 
+1. Create or update your Gemfile with the following -
 
 ```ruby
 source "https://rubygems.org"
@@ -95,7 +99,7 @@ gem "jekyll-remote-theme"
 
 3. Add `remote_theme: "hanuman"` to your `_config.yml`.
 
-4. Add `jekyll-remote-theme` to the plugins array of your `_config.yml` - 
+4. Add `jekyll-remote-theme` to the plugins array of your `_config.yml` -
 
 ```yaml
 plugins:
@@ -125,7 +129,7 @@ You can write posts just as you would in Jekyll, the only difference being that 
 
 You cannot use Markdown format or normal HTML tags. AMP provides its own custom tags for images, videos etc...
 
-### Examples - 
+### Examples -
 
 **Images**
 `<amp-img src="welcome.jpg" alt="Welcome" height="400" width="800"></amp-img>`
@@ -140,11 +144,11 @@ Some AMP components require you to specify external scripts before using them.
 You can specify these scripts in the head.html file in the includes directory after the already imported scripts and then use these components in any post.
 
 ## Validating your page with AMP
-AMP provides built-in validator to validate your pages so that they can rendered quickly. 
+AMP provides built-in validator to validate your pages so that they can rendered quickly.
 
 You can access this validator by opening the Developer Console in your browser and adding #development=1 to any url of your site.
 
-Example - 
+Example -
 http://localhost:4000/#development=1
 
 If you have errors on your page, AMP will list those for you in the console. If you do not have any errors, you'll get a message "AMP Validation Successful" on your console.
@@ -157,7 +161,7 @@ If you have errors on your page, AMP will list those for you in the console. If 
 
 Bug reports and pull requests are welcome on GitHub at https://github.com/samanyougarg/hanuman. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
 
-To submit a pull request - 
+To submit a pull request -
 
 1. Fork/clone the repository.
 2. Develop.
@@ -170,4 +174,3 @@ Hanuman is based on [amplify](https://github.com/ageitgey/amplify) jekyll theme.
 ## License
 
 The theme is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
-

@@ -3,13 +3,13 @@
     <div role="button" aria-label="open sidebar" on="tap:header-sidebar.toggle" tabindex="0" class="ampstart-navbar-trigger  pr2  ">☰
     </div>
     {% if site.logo %}
-    <amp-img src="{{site.baseurl}}{{site.logo}}" width="110" height="33" layout="fixed" class="my0 mx-auto" alt="Logo"></amp-img>
+    <a class="my0 mx-auto" href="{{site.baseurl}}"><amp-img src="{{site.baseurl}}{{site.logo}}" width="110" height="33" layout="fixed" class="my0 mx-auto" alt="Logo"></amp-img></a>
     {% endif %}
   </header>
 
 
 <!-- Start Sidebar -->
-<amp-sidebar id="header-sidebar" class="ampstart-sidebar px3  " layout="nodisplay">
+<amp-sidebar id="header-sidebar" class="ampstart-sidebar px3" layout="nodisplay">
   <div class="flex justify-start items-center ampstart-sidebar-header">
     <div role="button" aria-label="close sidebar" on="tap:header-sidebar.toggle" tabindex="0" class="ampstart-navbar-trigger items-start">✕</div>
   </div>
@@ -17,11 +17,11 @@
     <ul class="list-reset m0 p0 ampstart-label">
         {% for entry in site.data.navigation %}
             {% if entry.url == current_page %}
-                {% assign current = ' class="current"' %}
+                {% assign current = 'current' %}
             {% else %}
                 {% assign current = null %}
             {% endif %}
-      <li class="ampstart-nav-item ampstart-nav-dropdown relative " {{ current }}>
+      <li class="ampstart-nav-item ampstart-nav-dropdown relative {{ current }}">
           <li class="ampstart-faq-item"><a href="{{ site.url }}{{ site.baseurl }}{{ entry.url }}" class="text-decoration-none">{{ entry.title }}</a></li>
       </li>
       {% endfor %}
