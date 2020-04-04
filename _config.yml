@@ -18,9 +18,9 @@ pagination:
   per_page: 5
 
 # Social
-facebook: facebook
-twitter: twitter
-github:  github
+# facebook: ?
+# twitter: ?
+# github:  Next-Day-Ventures
 
 #Additional Pages
 about: about
