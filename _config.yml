@@ -2,8 +2,8 @@
 title: Next Day Ventures
 description: Bringing Technical Startups to Market Fast
 cover: assets/images/nextdayventures_hero.jpg
-logo: assets/images/logo.png
-favicon: assets/images/logo.png
+logo: assets/images/logo.svg.png
+favicon: assets/images/logo.svg.png
 baseurl: "/" # the subpath of your site, e.g. /blog/ or / for root
 url: "https://nextdayventures.com" # the base hostname & protocol for your site
 
