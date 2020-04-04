@@ -1,15 +1,15 @@
 # Site settings
-title: Hanuman
-description: Hanuman is a minimal yet powerful Jekyll theme for your blogs and websites.
-cover: assets/images/radhakrishna.jpg
+title: Next Day Ventures
+description: Bringing Technical Startups to Market Fast
+cover: assets/images/nextdayventures_hero.jpg
 logo: assets/images/logo.png
-favicon: assets/images/favicon.png
-baseurl: "/hanuman/" # the subpath of your site, e.g. /blog/ or / for root
-url: "https://samanyougarg.com" # the base hostname & protocol for your site
+favicon: assets/images/logo.png
+baseurl: "/" # the subpath of your site, e.g. /blog/ or / for root
+url: "https://nextdayventures.com" # the base hostname & protocol for your site
 
 pagination:
 
-  # Site-wide kill switch, disabled here it doesn't run at all 
+  # Site-wide kill switch, disabled here it doesn't run at all
   enabled: true
 
   # Set to 'true' to enable pagination debugging. This can be enabled in the site config or only for individual pagination pages
@@ -47,13 +47,13 @@ plugins:
 # Settings for rake task
 safe: False
 lsi: False
-username: samanyougarg #github username
-repo: hanuman #github repository
+username: Next-Day-Ventures #github username
+repo: landing #github repository
 branch: master #branch
 relative_source: ../hanuman/ #source directory
 destination: ../hanuman-pages/ #destination directory
-production_url:  https://samanyougarg.com/
-source_url:  https://github.com/samanyougarg/hanuman #source repository url
+production_url:  https://nextdayventures.com/
+source_url:  https://github.com/Next-Day-Ventures/landing #source repository url
 
 exclude:
   - README.md
