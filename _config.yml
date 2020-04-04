@@ -24,8 +24,9 @@ pagination:
 
 #Additional Pages
 about: about
-contact: contact
-privacy-policy: privacy-policy
+# contact: contact
+# privacy-policy: privacy-policy
+imprint: imprint
 
 
 permalink: /:title
