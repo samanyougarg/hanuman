@@ -22,7 +22,6 @@ It is built using the open source [AMP Start framework](https://www.ampstart.com
 - Social Sharing
 - Simple Navigation Menu
 - Pagination
-- Google Analytics
 - Can be easily installed via "theme gem"
 - Github Pages support
 - Easily Customisable
@@ -152,10 +151,6 @@ Example -
 http://localhost:4000/#development=1
 
 If you have errors on your page, AMP will list those for you in the console. If you do not have any errors, you'll get a message "AMP Validation Successful" on your console.
-
-## Enabling Google Analytics
-1. Set up your Analytics Tracking ID in _config.yml.
-2. Remove {% comment %} and {% endcomment %} tags in the default.html file in layouts directory.
 
 ## Contributing
 
